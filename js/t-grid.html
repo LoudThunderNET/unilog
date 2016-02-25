@@ -1,0 +1,39 @@
+<table cellpadding="0" cellspacing="0" border="0">
+<!-- заголовок-->
+  <tr>
+    <td id="fct{{pcol.index}}" class="htcell" ng-repeat="pcol in pinnedColumns" style="width:{{pcol.width}}px;display: block;">{{pcol.caption}}</td>
+    <td>
+      <div style="width: 100%;overflow: hidden;">
+        <table id="{{controlId}}theader" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td id="thr{{$index}}" class="htcell" ng-repeat="gcol in gridColumnsHeaders" style="width:{{gcol.width}}px">{{gcol.caption}}</td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+<!-- тело -->
+  <tr>
+    <td ng-repeat="pcol in pinnedColumns" style="width:{{pcol.width}}px">
+      <table id="fct{{$index}}" class="data_table" style="width:100%; margin-top:0px;z-index: -1;" cellpadding="0" cellspacing="0" border="0">
+        <tr ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
+          <td ng-class="{tcell:true, cell_hcenter: (pcol.halign=='center'),cell_hleft: (pcol.halign=='left'), cell_vtop: (pcol.valign=='top'), cell_hrigth: (pcol.halign=='right'), cell_vmid: (pcol.valign=='middle'), cell_vbot: (pcol.valign=='bottom')}" 
+             style="height:{{pcol.cells[$index].rowHeight}}px;">
+            <cell-template column="pcol" data="dataRow"></cell-template>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td atyle="overflow:scroll;">
+        <table id="{{controlId}}table" cellpadding="0" cellspacing="0" border="0" class="data_table" >
+          <tr id="{{controlId}}row{{$index}}" ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
+            <td ng-class="{tcell:true, cell_hcenter: (colHdr.halign=='center'),cell_hleft: (colHdr.halign=='left'), cell_vtop: (colHdr.valign=='top'), cell_hrigth: (colHdr.halign=='right'), cell_vmid: (colHdr.valign=='middle'), cell_vbot: (colHdr.valign=='bottom')}" 
+                style="width:{{colHdr.width}}px" 
+                ng-repeat="colHdr in gridColumnsHeaders">
+                <cell-template column="colHdr" data="dataRow"></cell-template>
+            </td> 
+          </tr>
+        </table>
+    </td>
+  </tr>
+</table>

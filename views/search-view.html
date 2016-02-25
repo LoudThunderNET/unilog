@@ -1,0 +1,113 @@
+<div id="wrapper" ui-layout>
+  <ui-layout options="{ flow : 'column', minX: '300', initX: '300' }">
+    <div id="left">
+      <!-- тип интервала времени -->
+      <div class="ctrlPanel">
+        <input id="cmdFind"     type="button" value="Поиск"      ng-click="cmdClick('start')"/>
+        <input id="cmdContinue" type="button" value="Продолжить" ng-click="cmdClick('continue')" disabled="disabled"/>
+        <input id="cmdCancel"   type="button" value="Отмена"     ng-click="CancelClick()" disabled="disabled"/>
+        <p class="recT"><span>Записей найдено:</span><span class="recVal">{{TotalRecords}}</span><span>Последний запрос:</span><span class="recVal">{{LastRecords}}</span></p>
+      </div>
+      <div class="mainPanel stretch">
+        <!-- тип интервала времени -->
+        <div>
+          <label><input type="radio" ng-model="dayOrInterval" value="day" ng-change="FormURL()"/>Сутки</label>
+          <label><input type="radio" ng-model="dayOrInterval" value="interval" ng-change="FormURL()"/>Интервал</label>
+          <!-- интервалы времени -->
+          <ul class="dates">
+            <li ng-hide="dayOrInterval=='interval'" style="height: 48px;">
+                День<input class="datectrl" type="date" ng-model="day" placeholder="yyyy-mm-ddThh:mm"/>
+            </li>
+            <li ng-hide="dayOrInterval=='day'">
+                от<input class="datectrl" type="datetime-local" ng-model="start_date" placeholder="yyyy-mm-ddThh:mm" ng-blur="FormURL()"/></li>
+            <li ng-hide="dayOrInterval=='day'">
+                до<input class="datectrl" type="datetime-local" ng-model="end_date" placeholder="yyyy-mm-ddThh:mm" ng-blur="FormURL()"/></li>
+          </ul>
+        </div>
+        <!-- среда, приложения, процессы -->
+        <div>
+          <p><b>Источник данных</b></p>
+          <div ng-repeat="src in source.sources">
+            <h4>{{src.caption}}</h4>
+            <ui-select ng-model="src.selected" theme="select2" ng-disabled="disabled" style="width: 250px;" ng-change="src.onchange()">
+              <ui-select-match>
+                  <div style="width:250px;">{{$select.selected.Name}}</div>
+              </ui-select-match>
+              <ui-select-choices repeat="val in src.values">
+                <div ng-bind-html="val.Name | highlight: $select.search" style="font-weight:bold; font-size:8pt;"></div>
+                <span class="smallD">
+                  {{val.Description}}
+                </span>
+              </ui-select-choices>
+            </ui-select>
+          </div>
+        </div>
+        <!-- параметры -->
+        <div>
+          <p><b>Параметры</b></p>
+          <!-- кнопка добавить -->
+          <div style="width:100%;">
+            <input type="button" value="Добавить" class="btnCtrl" ng-click="AddParameter()"/>
+            <input type="button" value="Очистить" style="margin-left:5px;" class="btnCtrl" ng-click="alert('Пока не реализовано')"/>
+          </div>
+          <!-- сетка параметров -->
+          <div>
+            <ul class="params">
+              <li ng-repeat="param in params">
+                <table cellpadding="0" cellspacing="0" border="0px" width="100%">
+                  <tr>
+                    <td style="width:15px">
+                      <input type="checkbox" ng-model="param.enabled" class="checkParam" ng-change="FormURL()"/>
+                    </td>
+                    <td style="width:50%">
+                      <ui-select ng-model="param.paramName" theme="select2" ng-disabled="disabled" style="width:100%;"  ng-change="FormURL()">
+                        <ui-select-match>{{param.paramName.Code}}</ui-select-match>
+                        <ui-select-choices repeat="val in paramNames | propsFilter: {Code: $select.search}">
+                          <div ng-bind-html="val.Code | highlight: $select.search" style="font-weight:bold; font-size:8pt;"></div>
+                        </ui-select-choices>
+                      </ui-select>
+                    </td>
+                    <td class="paramVal">=</td>
+                    <td style="width:50%">
+                      <input type="text" ng-model="param.paramValue"  class="paramVal"  ng-blur="FormURL()"/>
+                    </td>
+                    <td style="width:20px">
+                      <input class="delParambtn btnCtrl" style="width:26px" type="button" value="X" ng-click="DelParameter($index)"/>
+                    </td>
+                  </tr>
+                </table>
+            </ul>
+          </div>
+          <div class="opDiv">
+            <label class="hRadio"><input type="radio" name="operation" value="LogicalAnd" ng-model="request.ParamValueExpressionMode" ng-change="FormURL()"/>И</label>
+            <label class="hRadio"><input type="radio" name="operation" value="LogicalOr" ng-model="request.ParamValueExpressionMode" ng-change="FormURL()"/>ИЛИ</label>
+          </div>
+        </div>
+        <!-- типы сообщений -->
+        <div>
+          <p><b>Типы сообщений</b></p>
+          <ul class="mesParams">
+            <li ng-repeat="messageType in messageTypes">
+              <input id="{{messageType.Code}}" type="checkbox" ng-model="messageType.Enabled" ng-change="FormURL()"/>
+              <label for="{{messageType.Code}}">{{messageType.Name}}</label>
+            </li>
+          </ul>
+        </div>
+        <!-- текст сообщения, доп инфо, метод -->
+        <div>
+          <p><b>Параметры сообщения</b></p>
+          <div class="inputHint">Текст сообщения</div>
+          <input type="text" ng-model="messageText" ng-blur="FormURL()"/>
+          <div class="inputHint">Дополнительная информация</div>
+          <input type="text" ng-model="additionalInfo"  ng-blur="FormURL()"/>
+          <div class="inputHint">Метод</div>
+          <input type="text" ng-model="methodName"  ng-blur="FormURL()"/>
+        </div>
+      </div>
+    </div>
+    <div class="rightPanel" id="right">
+      <div control-id="grid1" t-grid config="config"></div>
+      <img id="wait" src="images/loading.gif"/>
+    </div>
+  </ui-layout>
+</div>

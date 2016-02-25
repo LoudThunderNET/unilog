@@ -1,0 +1,45 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(1)", "type": "UnilogModel.MessageType"
+}, "ID": 1, "Code": "Error", "Name": "\u041e\u0448\u0438\u0431\u043a\u0430", "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(1)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(2)", "type": "UnilogModel.MessageType"
+}, "ID": 2, "Code": "Critical", "Name": "\u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430", "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(2)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(3)", "type": "UnilogModel.MessageType"
+}, "ID": 3, "Code": "Debug", "Name": "\u041e\u0442\u043b\u0430\u0434\u043e\u0447\u043d\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435", "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(3)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(4)", "type": "UnilogModel.MessageType"
+}, "ID": 4, "Code": "Info", "Name": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435", "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(4)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(5)", "type": "UnilogModel.MessageType"
+}, "ID": 5, "Code": "Trace", "Name": "\u0422\u0440\u0430\u0441\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435", "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageType(5)/Message"
+}
+}
+}
+]
+}

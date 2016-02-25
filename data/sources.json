@@ -1,0 +1,1765 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(5)", "type": "UnilogModel.Source"
+}, "ID": 5, "ApplicationID": 1, "ApplicationHostID": 1, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(5)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(5)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(5)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(4)", "type": "UnilogModel.Source"
+}, "ID": 4, "ApplicationID": 1, "ApplicationHostID": 7, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(4)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(4)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(4)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(20)", "type": "UnilogModel.Source"
+}, "ID": 20, "ApplicationID": 4, "ApplicationHostID": 6, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(20)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(20)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(20)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(24)", "type": "UnilogModel.Source"
+}, "ID": 24, "ApplicationID": 4, "ApplicationHostID": 11, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(24)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(24)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(24)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(21)", "type": "UnilogModel.Source"
+}, "ID": 21, "ApplicationID": 4, "ApplicationHostID": 23, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(21)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(21)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(21)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(22)", "type": "UnilogModel.Source"
+}, "ID": 22, "ApplicationID": 4, "ApplicationHostID": 24, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(22)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(22)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(22)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(23)", "type": "UnilogModel.Source"
+}, "ID": 23, "ApplicationID": 4, "ApplicationHostID": 25, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(23)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(23)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(23)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(71)", "type": "UnilogModel.Source"
+}, "ID": 71, "ApplicationID": 4, "ApplicationHostID": 57, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(71)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(71)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(71)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(72)", "type": "UnilogModel.Source"
+}, "ID": 72, "ApplicationID": 4, "ApplicationHostID": 58, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(72)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(72)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(72)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(73)", "type": "UnilogModel.Source"
+}, "ID": 73, "ApplicationID": 4, "ApplicationHostID": 59, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(73)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(73)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(73)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(93)", "type": "UnilogModel.Source"
+}, "ID": 93, "ApplicationID": 4, "ApplicationHostID": 81, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(93)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(93)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(93)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(94)", "type": "UnilogModel.Source"
+}, "ID": 94, "ApplicationID": 4, "ApplicationHostID": 82, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(94)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(94)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(94)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(95)", "type": "UnilogModel.Source"
+}, "ID": 95, "ApplicationID": 4, "ApplicationHostID": 83, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(95)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(95)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(95)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(121)", "type": "UnilogModel.Source"
+}, "ID": 121, "ApplicationID": 4, "ApplicationHostID": 109, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(121)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(121)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(121)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(122)", "type": "UnilogModel.Source"
+}, "ID": 122, "ApplicationID": 4, "ApplicationHostID": 110, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(122)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(122)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(122)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(33)", "type": "UnilogModel.Source"
+}, "ID": 33, "ApplicationID": 7, "ApplicationHostID": 26, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(33)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(33)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(33)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(34)", "type": "UnilogModel.Source"
+}, "ID": 34, "ApplicationID": 7, "ApplicationHostID": 27, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(34)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(34)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(34)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(70)", "type": "UnilogModel.Source"
+}, "ID": 70, "ApplicationID": 7, "ApplicationHostID": 56, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(70)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(70)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(70)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(37)", "type": "UnilogModel.Source"
+}, "ID": 37, "ApplicationID": 9, "ApplicationHostID": 28, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(37)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(37)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(37)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(38)", "type": "UnilogModel.Source"
+}, "ID": 38, "ApplicationID": 9, "ApplicationHostID": 29, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(38)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(38)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(38)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(77)", "type": "UnilogModel.Source"
+}, "ID": 77, "ApplicationID": 9, "ApplicationHostID": 66, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(77)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(77)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(77)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(78)", "type": "UnilogModel.Source"
+}, "ID": 78, "ApplicationID": 9, "ApplicationHostID": 67, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(78)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(78)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(78)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(79)", "type": "UnilogModel.Source"
+}, "ID": 79, "ApplicationID": 9, "ApplicationHostID": 68, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(79)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(79)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(79)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(80)", "type": "UnilogModel.Source"
+}, "ID": 80, "ApplicationID": 9, "ApplicationHostID": 69, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(80)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(80)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(80)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(81)", "type": "UnilogModel.Source"
+}, "ID": 81, "ApplicationID": 9, "ApplicationHostID": 70, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(81)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(81)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(81)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(82)", "type": "UnilogModel.Source"
+}, "ID": 82, "ApplicationID": 9, "ApplicationHostID": 71, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(82)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(82)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(82)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(40)", "type": "UnilogModel.Source"
+}, "ID": 40, "ApplicationID": 10, "ApplicationHostID": 30, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(40)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(40)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(40)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(41)", "type": "UnilogModel.Source"
+}, "ID": 41, "ApplicationID": 10, "ApplicationHostID": 31, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(41)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(41)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(41)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(47)", "type": "UnilogModel.Source"
+}, "ID": 47, "ApplicationID": 12, "ApplicationHostID": 33, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(47)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(47)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(47)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(48)", "type": "UnilogModel.Source"
+}, "ID": 48, "ApplicationID": 12, "ApplicationHostID": 34, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(48)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(48)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(48)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(50)", "type": "UnilogModel.Source"
+}, "ID": 50, "ApplicationID": 14, "ApplicationHostID": 38, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(50)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(50)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(50)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(51)", "type": "UnilogModel.Source"
+}, "ID": 51, "ApplicationID": 14, "ApplicationHostID": 39, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(51)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(51)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(51)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(57)", "type": "UnilogModel.Source"
+}, "ID": 57, "ApplicationID": 17, "ApplicationHostID": 43, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(57)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(57)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(57)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(58)", "type": "UnilogModel.Source"
+}, "ID": 58, "ApplicationID": 17, "ApplicationHostID": 44, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(58)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(58)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(58)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(59)", "type": "UnilogModel.Source"
+}, "ID": 59, "ApplicationID": 17, "ApplicationHostID": 45, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(59)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(59)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(59)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(128)", "type": "UnilogModel.Source"
+}, "ID": 128, "ApplicationID": 17, "ApplicationHostID": 116, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(128)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(128)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(128)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(62)", "type": "UnilogModel.Source"
+}, "ID": 62, "ApplicationID": 18, "ApplicationHostID": 46, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(62)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(62)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(62)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(61)", "type": "UnilogModel.Source"
+}, "ID": 61, "ApplicationID": 18, "ApplicationHostID": 47, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(61)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(61)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(61)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(60)", "type": "UnilogModel.Source"
+}, "ID": 60, "ApplicationID": 18, "ApplicationHostID": 48, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(60)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(60)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(60)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(63)", "type": "UnilogModel.Source"
+}, "ID": 63, "ApplicationID": 19, "ApplicationHostID": 49, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(63)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(63)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(63)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(64)", "type": "UnilogModel.Source"
+}, "ID": 64, "ApplicationID": 19, "ApplicationHostID": 50, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(64)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(64)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(64)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(65)", "type": "UnilogModel.Source"
+}, "ID": 65, "ApplicationID": 19, "ApplicationHostID": 51, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(65)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(65)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(65)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(133)", "type": "UnilogModel.Source"
+}, "ID": 133, "ApplicationID": 19, "ApplicationHostID": 121, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(133)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(133)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(133)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(66)", "type": "UnilogModel.Source"
+}, "ID": 66, "ApplicationID": 20, "ApplicationHostID": 52, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(66)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(66)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(66)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(67)", "type": "UnilogModel.Source"
+}, "ID": 67, "ApplicationID": 20, "ApplicationHostID": 53, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(67)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(67)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(67)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(132)", "type": "UnilogModel.Source"
+}, "ID": 132, "ApplicationID": 20, "ApplicationHostID": 120, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(132)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(132)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(132)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(68)", "type": "UnilogModel.Source"
+}, "ID": 68, "ApplicationID": 21, "ApplicationHostID": 54, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(68)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(68)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(68)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(69)", "type": "UnilogModel.Source"
+}, "ID": 69, "ApplicationID": 21, "ApplicationHostID": 55, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(69)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(69)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(69)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(105)", "type": "UnilogModel.Source"
+}, "ID": 105, "ApplicationID": 21, "ApplicationHostID": 93, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(105)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(105)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(105)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(74)", "type": "UnilogModel.Source"
+}, "ID": 74, "ApplicationID": 22, "ApplicationHostID": 60, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(74)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(74)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(74)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(75)", "type": "UnilogModel.Source"
+}, "ID": 75, "ApplicationID": 22, "ApplicationHostID": 61, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(75)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(75)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(75)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(76)", "type": "UnilogModel.Source"
+}, "ID": 76, "ApplicationID": 22, "ApplicationHostID": 62, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(76)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(76)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(76)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(100)", "type": "UnilogModel.Source"
+}, "ID": 100, "ApplicationID": 22, "ApplicationHostID": 88, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(100)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(100)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(100)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(136)", "type": "UnilogModel.Source"
+}, "ID": 136, "ApplicationID": 22, "ApplicationHostID": 126, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(136)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(136)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(136)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(137)", "type": "UnilogModel.Source"
+}, "ID": 137, "ApplicationID": 22, "ApplicationHostID": 127, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(137)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(137)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(137)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(138)", "type": "UnilogModel.Source"
+}, "ID": 138, "ApplicationID": 22, "ApplicationHostID": 128, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(138)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(138)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(138)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(139)", "type": "UnilogModel.Source"
+}, "ID": 139, "ApplicationID": 22, "ApplicationHostID": 129, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(139)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(139)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(139)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(84)", "type": "UnilogModel.Source"
+}, "ID": 84, "ApplicationID": 23, "ApplicationHostID": 73, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(84)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(84)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(84)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(85)", "type": "UnilogModel.Source"
+}, "ID": 85, "ApplicationID": 23, "ApplicationHostID": 74, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(85)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(85)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(85)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(86)", "type": "UnilogModel.Source"
+}, "ID": 86, "ApplicationID": 23, "ApplicationHostID": 75, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(86)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(86)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(86)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(87)", "type": "UnilogModel.Source"
+}, "ID": 87, "ApplicationID": 23, "ApplicationHostID": 76, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(87)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(87)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(87)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(89)", "type": "UnilogModel.Source"
+}, "ID": 89, "ApplicationID": 23, "ApplicationHostID": 78, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(89)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(89)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(89)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(91)", "type": "UnilogModel.Source"
+}, "ID": 91, "ApplicationID": 24, "ApplicationHostID": 77, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(91)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(91)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(91)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(90)", "type": "UnilogModel.Source"
+}, "ID": 90, "ApplicationID": 24, "ApplicationHostID": 79, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(90)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(90)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(90)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(92)", "type": "UnilogModel.Source"
+}, "ID": 92, "ApplicationID": 24, "ApplicationHostID": 80, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(92)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(92)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(92)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(96)", "type": "UnilogModel.Source"
+}, "ID": 96, "ApplicationID": 25, "ApplicationHostID": 84, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(96)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(96)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(96)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(97)", "type": "UnilogModel.Source"
+}, "ID": 97, "ApplicationID": 25, "ApplicationHostID": 85, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(97)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(97)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(97)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(98)", "type": "UnilogModel.Source"
+}, "ID": 98, "ApplicationID": 25, "ApplicationHostID": 86, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(98)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(98)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(98)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(99)", "type": "UnilogModel.Source"
+}, "ID": 99, "ApplicationID": 25, "ApplicationHostID": 87, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(99)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(99)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(99)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(101)", "type": "UnilogModel.Source"
+}, "ID": 101, "ApplicationID": 26, "ApplicationHostID": 89, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(101)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(101)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(101)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(102)", "type": "UnilogModel.Source"
+}, "ID": 102, "ApplicationID": 26, "ApplicationHostID": 90, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(102)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(102)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(102)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(103)", "type": "UnilogModel.Source"
+}, "ID": 103, "ApplicationID": 26, "ApplicationHostID": 91, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(103)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(103)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(103)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(104)", "type": "UnilogModel.Source"
+}, "ID": 104, "ApplicationID": 26, "ApplicationHostID": 92, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(104)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(104)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(104)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(106)", "type": "UnilogModel.Source"
+}, "ID": 106, "ApplicationID": 27, "ApplicationHostID": 94, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(106)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(106)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(106)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(108)", "type": "UnilogModel.Source"
+}, "ID": 108, "ApplicationID": 27, "ApplicationHostID": 96, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(108)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(108)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(108)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(109)", "type": "UnilogModel.Source"
+}, "ID": 109, "ApplicationID": 27, "ApplicationHostID": 97, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(109)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(109)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(109)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(110)", "type": "UnilogModel.Source"
+}, "ID": 110, "ApplicationID": 27, "ApplicationHostID": 98, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(110)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(110)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(110)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(111)", "type": "UnilogModel.Source"
+}, "ID": 111, "ApplicationID": 29, "ApplicationHostID": 99, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(111)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(111)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(111)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(112)", "type": "UnilogModel.Source"
+}, "ID": 112, "ApplicationID": 29, "ApplicationHostID": 100, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(112)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(112)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(112)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(113)", "type": "UnilogModel.Source"
+}, "ID": 113, "ApplicationID": 30, "ApplicationHostID": 101, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(113)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(113)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(113)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(114)", "type": "UnilogModel.Source"
+}, "ID": 114, "ApplicationID": 30, "ApplicationHostID": 102, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(114)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(114)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(114)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(115)", "type": "UnilogModel.Source"
+}, "ID": 115, "ApplicationID": 30, "ApplicationHostID": 103, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(115)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(115)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(115)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(116)", "type": "UnilogModel.Source"
+}, "ID": 116, "ApplicationID": 31, "ApplicationHostID": 104, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(116)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(116)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(116)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(117)", "type": "UnilogModel.Source"
+}, "ID": 117, "ApplicationID": 31, "ApplicationHostID": 105, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(117)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(117)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(117)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(118)", "type": "UnilogModel.Source"
+}, "ID": 118, "ApplicationID": 31, "ApplicationHostID": 106, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(118)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(118)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(118)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(119)", "type": "UnilogModel.Source"
+}, "ID": 119, "ApplicationID": 32, "ApplicationHostID": 107, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(119)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(119)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(119)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(120)", "type": "UnilogModel.Source"
+}, "ID": 120, "ApplicationID": 32, "ApplicationHostID": 108, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(120)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(120)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(120)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(124)", "type": "UnilogModel.Source"
+}, "ID": 124, "ApplicationID": 32, "ApplicationHostID": 112, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(124)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(124)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(124)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(123)", "type": "UnilogModel.Source"
+}, "ID": 123, "ApplicationID": 33, "ApplicationHostID": 111, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(123)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(123)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(123)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(127)", "type": "UnilogModel.Source"
+}, "ID": 127, "ApplicationID": 33, "ApplicationHostID": 115, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(127)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(127)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(127)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(125)", "type": "UnilogModel.Source"
+}, "ID": 125, "ApplicationID": 34, "ApplicationHostID": 113, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(125)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(125)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(125)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(126)", "type": "UnilogModel.Source"
+}, "ID": 126, "ApplicationID": 34, "ApplicationHostID": 114, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(126)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(126)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(126)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(129)", "type": "UnilogModel.Source"
+}, "ID": 129, "ApplicationID": 35, "ApplicationHostID": 117, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(129)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(129)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(129)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(130)", "type": "UnilogModel.Source"
+}, "ID": 130, "ApplicationID": 35, "ApplicationHostID": 118, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(130)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(130)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(130)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(131)", "type": "UnilogModel.Source"
+}, "ID": 131, "ApplicationID": 35, "ApplicationHostID": 119, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(131)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(131)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(131)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(134)", "type": "UnilogModel.Source"
+}, "ID": 134, "ApplicationID": 36, "ApplicationHostID": 122, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(134)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(134)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(134)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(135)", "type": "UnilogModel.Source"
+}, "ID": 135, "ApplicationID": 36, "ApplicationHostID": 123, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(135)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(135)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(135)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(140)", "type": "UnilogModel.Source"
+}, "ID": 140, "ApplicationID": 36, "ApplicationHostID": 124, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(140)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(140)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(140)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(141)", "type": "UnilogModel.Source"
+}, "ID": 141, "ApplicationID": 36, "ApplicationHostID": 125, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(141)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(141)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(141)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(142)", "type": "UnilogModel.Source"
+}, "ID": 142, "ApplicationID": 38, "ApplicationHostID": 130, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(142)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(142)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(142)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(143)", "type": "UnilogModel.Source"
+}, "ID": 143, "ApplicationID": 38, "ApplicationHostID": 131, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(143)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(143)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(143)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(144)", "type": "UnilogModel.Source"
+}, "ID": 144, "ApplicationID": 38, "ApplicationHostID": 132, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(144)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(144)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(144)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(145)", "type": "UnilogModel.Source"
+}, "ID": 145, "ApplicationID": 39, "ApplicationHostID": 133, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(145)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(145)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(145)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(146)", "type": "UnilogModel.Source"
+}, "ID": 146, "ApplicationID": 39, "ApplicationHostID": 134, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(146)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(146)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(146)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(147)", "type": "UnilogModel.Source"
+}, "ID": 147, "ApplicationID": 39, "ApplicationHostID": 135, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(147)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(147)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(147)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(148)", "type": "UnilogModel.Source"
+}, "ID": 148, "ApplicationID": 40, "ApplicationHostID": 136, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(148)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(148)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(148)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(149)", "type": "UnilogModel.Source"
+}, "ID": 149, "ApplicationID": 40, "ApplicationHostID": 137, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(149)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(149)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(149)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(150)", "type": "UnilogModel.Source"
+}, "ID": 150, "ApplicationID": 40, "ApplicationHostID": 138, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(150)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(150)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(150)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(151)", "type": "UnilogModel.Source"
+}, "ID": 151, "ApplicationID": 41, "ApplicationHostID": 139, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(151)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(151)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(151)/Message"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(152)", "type": "UnilogModel.Source"
+}, "ID": 152, "ApplicationID": 41, "ApplicationHostID": 140, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(152)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(152)/ApplicationHost"
+}
+}, "Message": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Source(152)/Message"
+}
+}
+}
+]
+}

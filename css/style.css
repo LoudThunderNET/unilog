@@ -1,0 +1,345 @@
+#wrapper{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+div{
+	display:block;
+<!--		border: green solid 1px; -->
+}
+#wait{
+	top: 35%;
+	left: 50%;
+	position: absolute;
+	display:none;
+}
+.ctrlPanel{
+  height: 50px;
+  background-color:#737373;
+  color:#CCCCCC;
+}
+.ctrlPanel input{
+  font-weight:bold;
+}
+
+.mainPanel{
+  overflow: auto;
+  top: 50px !important;
+  background-color:rgba(0, 0, 0, .15);
+  color: #333333;
+  color:#333333;
+  padding: 3px;
+}
+.select2-container .select2-choice{
+  border-radius:0px;
+  border-style:none;
+  background-image: none;
+  background-color:#F5F5F5;
+}
+.select2-container .select2-choice .select2-arrow {
+  border-radius:0px;
+  background-image:none;
+  background: #b5b5b5
+}
+.datectrl{
+	left: 45px;
+	position: absolute;
+  background-color: #F5F5F5;
+  color:#333;
+}
+#left{
+  overflow:auto;
+}
+#left > div{
+<!--  margin: 3px 3px 3px 3px; -->
+	background-color: #888888;
+<!--  border-radius: 5px; -->
+<!--  -webkit-border-radius: 5px; -->
+<!--  -moz-border-radius: 5px; -->
+  padding: 3px;
+<!--  border-style: groove; -->
+}
+.params{
+	margin-left: -40px;
+	list-style-type: none;
+	line-height: 2.7em;
+}
+.dates{
+	list-style-type: none;
+	line-height: 1.9;
+  margin-left:-35px;
+}
+div input[type="date"]{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+div input[type="datetime-local"]{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+div > ul input[type="text"]{
+width:100%;
+  background-color:#F5F5F5;
+  border-style: none;
+  height: 24px;
+    font-size: 8pt;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 3px;
+}
+.inputHint + input[type="text"]{
+  height:18px;
+  background-color: #F5F5F5;
+  color:#333;
+  border-style: none;
+  font-size:8pt;
+  font-weight:bold;
+  width:99%;
+}
+.delParambtn{
+  height: 26px !important;
+}
+.btnCtrl{
+  border-style: none;
+  background-color: #b5b5b5;  
+  width:49%;
+  float:left;
+}
+.btnCtrl:active{
+  border-style: none;
+  background-color: #888888;  
+  width:49%;
+  float:left;
+}
+.hRadio{
+  float:right;
+ 
+}
+.recT{
+height: 25px;
+width: 100%;
+position: relative;
+bottom: 0px;
+margin-bottom: 0px;
+line-height: 30px;
+padding-left:5px;
+}
+.recVal{
+margin-left: 5px;
+margin-right: 5px;
+font-weight: bold;
+font-size: 9pt;
+}
+}
+.opDiv{
+  width: 100%;
+  float: left;
+}
+div > p{
+	margin-top: auto;
+}
+
+body{
+font-family: arial;
+font-size: 8.5pt;
+}
+td input{
+  width:100%;
+}
+.paramVal{
+  float:left; 
+  height:22px;
+  width:10px;
+  font-size: 8pt;
+    padding-left: 3px;
+
+}
+.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item {
+  padding: 0.5em 0 0.5em 3em;
+}
+.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item .ui-icon {
+  height: 24px;
+  width: 24px;
+  top: 0.1em;
+}
+
+.smallD{
+  color: darkgray;
+  font-size: 7pt;
+}
+.ui-select-choices-row{
+    font-family:sans-serif;
+}
+.select2-results .select2-highlighted {
+    background: #8CBDF5;
+}
+div .select2-results .select2-result-label{
+    border-bottom: #EFEFEF 1px solid;
+}
+.select2-highlighted{
+  background-color:#E6EDFC;
+}
+.ui-select-choices-row:hover
+{
+  background-color:#3875d7;
+  color:#FFFFFF;
+}
+
+.select2-container .select2-choice > .select2-chosen
+{
+  font-size:8pt;
+  font-weight:bold;
+}
+.select2-results{
+      background-color: #FaFaFa;
+}
+.select2-drop{
+  border:0px;
+  border-top:0px;
+  border-radius:0px;
+  background-color:#FaFaFa;
+}
+.select2-results .select2-result-label{
+  padding:0px;
+}
+.ui-select-container[theme="select2"].direction-up .ui-select-dropdown{
+  border-radius:0px;
+}
+.ui-select-container[theme="select2"].direction-up .ui-select-match{
+    border-radius:0px;
+
+}
+.select2-results li{
+  line-height: 2.0em;
+}
+h4{
+  margin-bottom: 0px; 
+  margin-top:3px;
+}
+.inputHint{
+  font-size:8pt;
+  font-weight:bold;
+  margin: 10px 0px 0px 0px;
+}
+
+.checkParam{
+  float:left; 
+  margin-top: 8px;
+  width: 15px;
+}
+
+.ui-layout-column > .ui-splitbar{
+  background-position-x: 50%;
+  background-repeat-x: no-repeat;
+  background-color: #CCCCCC;
+  width: 5px;
+}
+.mesCont{
+  position: absolute; 
+  top: 0px;    
+  bottom: 0px;    
+  left: 0px;    
+  right: 0px; 
+}
+.mesHeader{
+  width: 100%;   
+  height: 60px;
+  float: left;
+  background-color:#737373;
+  box-sizing: border-box;
+}
+.mesBCont{
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mesPane{
+  width: 150px;
+  float: left;
+  background-color:#888888;
+  position: absolute;
+  bottom: 0px;
+  top: 60px;
+  box-sizing: border-box;
+}
+.mesBody{
+  bottom: 0px;
+  float: left;
+  top: 60px;
+  left: 160px;
+  right: 0px;
+  background-color: #EEEEEE;
+  position: absolute;
+  box-sizing: border-box;
+}
+.tdParam{
+  color:#CCCCCC;
+  text-align:right;
+  padding-right:5px;
+}
+.tdValue{
+  font-weight:bold;
+}
+.ulParam{
+  list-style:none;
+  color:#E8E8E8;
+  margin-left:-40px;
+  font-size:12pt;
+  line-height:1.7em
+}
+ .ulParam div{
+  padding-left:10px;
+  cursor:pointer;
+}
+ .ulParam div:hover{
+  padding-left:10px;
+  background-color:#CCCCCC;
+  cursor:pointer;
+}
+.seleParam{
+  cursor:pointer;
+  background-color:#B5B5B5;
+  color:#333;
+}
+.mesParams{
+  line-height:0.5;
+	margin-left: -40px;
+	list-style-type: none;
+}
+.grid{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #EEEEEE;
+}
+.rightPanel{
+  left: 355px;
+  background-color: #f4f4f4;
+}
+#right > div
+{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+.multiParam{
+list-style: none;
+margin-left: -40px;
+margin-bottom: 0px;
+margin-top: 0px;
+width: 100%;
+text-align: right;
+font-weight: bold;
+}
+.multiPL
+{
+text-align: left !important;
+}

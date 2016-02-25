@@ -1,0 +1,1541 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(1)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 1, "Name": "ren-intranet01", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(1)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(1)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(2)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 2, "Name": "loyalty.renins.com", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(2)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(2)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(3)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 3, "Name": "bonus1.renins.com", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(3)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(3)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(4)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 4, "Name": "special1.renins.com", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(4)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(4)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(5)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 5, "Name": "md.renins.com", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(5)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(5)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(6)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 6, "Name": "prod.renins.com", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(6)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(6)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(7)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 7, "Name": "ren-intranet01:88", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(7)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(7)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(8)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 8, "Name": "prod.renins.com/AUTO_TEST", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(8)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(8)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(9)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 9, "Name": "prod.renins.com/AUTO_TEST2", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(9)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(9)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(10)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 10, "Name": "prod.renins.com/AUTO_TEST3", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(10)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(10)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(11)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 11, "Name": "prod.renins.com/SFA", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(11)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(11)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(23)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 23, "Name": "prod.renins.com/AUTO-TEST", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(23)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(23)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(24)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 24, "Name": "prod.renins.com/AUTO-TEST2", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(24)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(24)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(25)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 25, "Name": "prod.renins.com/AUTO-TEST3", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(25)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(25)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(26)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 26, "Name": "services.renins.com/Workflow/", "Description": "\u041f\u0440\u043e\u0434\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 Workflow", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(26)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(26)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(27)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 27, "Name": "services.renins.com/WorkflowTest/", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 Workflow", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(27)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(27)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(28)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 28, "Name": "direct.renins.com/auto", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(28)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(28)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(29)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 29, "Name": "test1.renins.com/auto", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(29)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(29)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(30)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 30, "Name": "services.renins.com/printingservice_ola/", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0435\u0447\u0430\u0442\u0438 OLA", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(30)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(30)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(31)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 31, "Name": "services.renins.com/printingservice_ola_test/", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0435\u0447\u0430\u0442\u0438 OLA", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(31)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(31)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(32)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 32, "Name": "services.renins.com/IntegrationService/", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0439", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(32)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(32)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(33)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 33, "Name": "test1.renins.com/ola", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043e\u043d\u043b\u0430\u0439\u043d-\u0430\u0433\u0435\u043d\u0442\u0430", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(33)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(33)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(34)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 34, "Name": "direct.renins.com/ola", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043e\u043d\u043b\u0430\u0439\u043d-\u0430\u0433\u0435\u043d\u0442\u0430", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(34)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(34)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(35)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 35, "Name": "services.renins.com", "Description": "services.renins.com/IntegrationService", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(35)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(35)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(36)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 36, "Name": "services.renins.com/IntegrationServiceNew/", "Description": "services.renins.com/IntegrationService", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(36)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(36)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(37)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 37, "Name": "192.168.1.32", "Description": "192.168.1.32", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(37)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(37)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(38)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 38, "Name": "c.services.renins.com/DiPolicyManagementService", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u043e\u043b\u043e\u043d\u0433\u0430\u0446\u0438\u0438 DI", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(38)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(38)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(39)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 39, "Name": "test1.services.renins.com/DiPolicyManagementService", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u043e\u043b\u043e\u043d\u0433\u0430\u0446\u0438\u0438 DI", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(39)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(39)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(40)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 40, "Name": "services.renins.com/b2b_service2", "Description": "\u041f\u0420\u041e\u0414", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(40)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(40)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(41)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 41, "Name": "services.renins.com/b2b_service_test", "Description": "\u0422\u0415\u0421\u0422", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(41)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(41)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(42)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 42, "Name": "192.168.1.32/TEST", "Description": "\u0421\u0435\u0440\u0432\u0435\u0440", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(42)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(42)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(43)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 43, "Name": "c.services.renins.com/TravelISS/", "Description": "\u041f\u0420\u041e\u0414 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0422\u0443\u0440\u0438\u0437\u043c\u0443", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(43)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(43)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(44)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 44, "Name": "test1.services.renins.com/TravelISS/", "Description": "\u0422\u0415\u0421\u0422 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0422\u0443\u0440\u0438\u0437\u043c\u0443", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(44)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(44)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(45)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 45, "Name": "test1.services.renins.com/TravelISSDev/", "Description": "\u0414\u0415\u0412 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0422\u0443\u0440\u0438\u0437\u043c\u0443", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(45)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(45)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(46)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 46, "Name": "test1.services.renins.com/AccidentISSDev/", "Description": "\u0414\u0415\u0412 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041d\u0421", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(46)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(46)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(47)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 47, "Name": "test1.services.renins.com/AccidentISSTest/", "Description": "\u0422\u0415\u0421\u0422 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041d\u0421", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(47)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(47)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(48)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 48, "Name": "c.services.renins.com/AccidentISS/", "Description": "\u041f\u0420\u041e\u0414 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041d\u0421", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(48)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(48)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(49)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 49, "Name": "c.services.renins.com/PropertyISS/", "Description": "\u041f\u0420\u041e\u0414 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0418\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0443", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(49)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(49)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(50)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 50, "Name": "test1.services.renins.com/PropertyISSTest/", "Description": "\u0422\u0415\u0421\u0422 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0418\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0443", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(50)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(50)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(51)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 51, "Name": "test1.services.renins.com/PropertyISSDev/", "Description": "\u0414\u0415\u0412 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0418\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0443", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(51)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(51)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(52)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 52, "Name": "InternalServices", "Description": "Prod", "Type": "Prod", "Url": "http://services.renins.com/InternalServices/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(52)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(52)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(53)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 53, "Name": "InternalServicesTest", "Description": "Test", "Type": "Test", "Url": "http://test1.services.renins.com/InternalServices/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(53)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(53)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(54)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 54, "Name": "RsaIntegrationService", "Description": "Prod", "Type": "Prod", "Url": "http://c.services.renins.com/RsaIntegrationService/RsaService.svc", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(54)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(54)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(55)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 55, "Name": "RsaIntegrationServiceTest", "Description": "Test", "Type": "Test", "Url": "http://test1.services.renins.com/RsaIntegrationService/RsaService.svc", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(55)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(55)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(56)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 56, "Name": "services.renins.com/WorkflowStage/", "Description": "\u0441\u0442\u044d\u0439\u0434\u0436 \u0441\u0435\u0440\u0432\u0435\u0440 Workflow", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(56)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(56)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(57)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 57, "Name": "prod.renins.com/SFA-CORE2/", "Description": "\u041f\u0420\u041e\u0414 \u0432\u0435\u0440\u0441\u0438\u044f b2b-mvc", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(57)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(57)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(58)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 58, "Name": "prod.renins.com/SFA-CORE2/Test/", "Description": "\u0442\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u0441\u0430\u0439\u0442 b2b-mvc", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(58)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(58)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(59)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 59, "Name": "prod.renins.com/SFA-CORE2/Dev/", "Description": "\u0434\u0435\u0432-\u0441\u0430\u0439\u0442 b2b-mvc", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(59)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(59)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(60)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 60, "Name": "B2B-Auto-PPS-Prod", "Description": "\u041f\u0440\u043e\u0434", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(60)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(60)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(61)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 61, "Name": "B2B-Auto-PPS-Test", "Description": "\u0422\u0435\u0441\u0442", "Type": "Test", "Url": "http://test1.services.renins.com/B2bAutoPPSTest/B2BPolicyProcessingService.svc/wsa", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(61)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(61)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(62)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 62, "Name": "B2B-Auto-PPS-Dev", "Description": "\u0414\u0435\u0432", "Type": "Dev", "Url": "http://test1.services.renins.com/B2bAutoPPSDev/B2BPolicyProcessingService.svc/wsa", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(62)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(62)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(63)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 63, "Name": "DI-Auto-PPS-Prod", "Description": "http://n3.services.renins.com/DiAutoPPS/DiAutoPolicyProcessingService.svc/wsa", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(63)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(63)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(64)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 64, "Name": "DI-Auto-PPS-Test", "Description": "http://test1.services.renins.com/DiAutoPPSTest/DiAutoPolicyProcessingService.svc/wsa", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(64)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(64)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(65)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 65, "Name": "DI-Auto-PPS-Dev", "Description": "http://test1.services.renins.com/DiAutoPPSDev/DiAutoPolicyProcessingService.svc/wsa", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(65)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(65)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(66)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 66, "Name": "online.renins.com/di-auto", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(66)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(66)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(67)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 67, "Name": "test-online.renins.com/di-auto", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(67)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(67)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(68)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 68, "Name": "stg-online.renins.com/di-auto", "Description": null, "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(68)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(68)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(69)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 69, "Name": "online.renins.com/di-travel", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(69)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(69)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(70)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 70, "Name": "test-online.renins.com/di-travel", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(70)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(70)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(71)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 71, "Name": "stg-online.renins.com/di-travel", "Description": null, "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(71)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(71)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(72)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 72, "Name": "services.renins.com/IntegrationServiceTest", "Description": "\u0442\u0435\u0441\u0442\u043e\u0432\u044b\u0439 \u043d\u0430 32-\u043c", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(72)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(72)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(73)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 73, "Name": "test1.services.renins.com/PartnerIntegrationServiceTest", "Description": "<\u041e\u0442\u043a\u043b\u044e\u0447\u0435\u043d>", "Type": null, "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(73)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(73)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(74)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 74, "Name": "test1.services.renins.com/PartnerIntegrationServiceDev", "Description": "dev \u043d\u0430 56-\u043c", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(74)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(74)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(75)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 75, "Name": "test1.services.renins.com/PartnerIntegrationService", "Description": "\u0442\u0435\u0441\u0442 \u043d\u0430 56-\u043c", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(75)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(75)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(76)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 76, "Name": "c.services.renins.com/PartnerIntegrationService", "Description": "\u043f\u0440\u043e\u0434 \u043d\u0430 67-\u043c", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(76)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(76)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(77)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 77, "Name": "stg.services.renins.com/IntegrationService", "Description": "\u0421\u0422\u042d\u0419\u0414\u0416", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(77)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(77)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(78)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 78, "Name": "stg.services.renins.com/PartnerIntegrationService", "Description": "\u0441\u0442\u044d\u0439\u0434\u0436 \u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0432\u0438\u0441\u0430", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(78)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(78)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(79)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 79, "Name": "test1.services.renins.com/IntegrationService", "Description": "\u0422\u0415\u0421\u0422", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(79)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(79)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(80)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 80, "Name": "c.services.renins.com/IntegrationService", "Description": "\u041f\u0420\u041e\u0414", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(80)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(80)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(81)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 81, "Name": "test1.prod.renins.com/SFA-CORE2/Dev/", "Description": "\u0414\u0415\u0412 \u0432\u0435\u0440\u0441\u0438\u044f b2b-mvc", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(81)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(81)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(82)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 82, "Name": "test1.prod.renins.com/SFA-CORE2/", "Description": "\u0422\u0415\u0421\u0422 \u0432\u0435\u0440\u0441\u0438\u044f b2b-mvc", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(82)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(82)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(83)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 83, "Name": "stg.prod.renins.com/SFA-CORE2/", "Description": "\u0421\u0422\u0415\u0419\u0414\u0416 \u0432\u0435\u0440\u0441\u0438\u044f b2b-mvc", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(83)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(83)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(84)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 84, "Name": "test1.prod.renins.com/SFA-CORE2/Dev/Calc/", "Description": "\u0414\u0415\u0412 \u0432\u0435\u0440\u0441\u0438\u044f CalcPrim \u0434\u043b\u044f B2B", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(84)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(84)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(85)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 85, "Name": "test1.prod.renins.com/SFA-CORE2/Calc/", "Description": "\u0422\u0415\u0421\u0422 \u0432\u0435\u0440\u0441\u0438\u044f CalcPrim \u0434\u043b\u044f B2B", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(85)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(85)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(86)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 86, "Name": "stg.prod.renins.com/SFA-CORE2/Calc/", "Description": "\u0421\u0422\u0415\u0419\u0414\u0416 \u0432\u0435\u0440\u0441\u0438\u044f CalcPrim \u0434\u043b\u044f B2B", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(86)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(86)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(87)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 87, "Name": "prod.renins.com/SFA-CORE2/Calc/", "Description": "\u041f\u0420\u041e\u0414 \u0432\u0435\u0440\u0441\u0438\u044f CalcPrim \u0434\u043b\u044f B2B", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(87)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(87)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(88)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 88, "Name": "B2B-Auto-PPS-Stage", "Description": "\u0421\u0442\u0435\u0439\u0434\u0436", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(88)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(88)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(89)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 89, "Name": "prod.services.renins.com/LinkIntegrationService", "Description": "Link \u0441\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 TIM", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(89)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(89)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(90)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 90, "Name": "stg.services.renins.com/LinkIntegrationService", "Description": "Link \u0441\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 TIM", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(90)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(90)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(91)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 91, "Name": "test1.services.renins.com/LinkIntegrationService", "Description": "Link \u0441\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 TIM", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(91)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(91)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(92)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 92, "Name": "c.services.renins.com/LinkIntegrationService", "Description": "Link \u0441\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 TIM", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(92)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(92)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(93)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 93, "Name": "RsaIntegrationServiceStage", "Description": "Stage", "Type": "Stage", "Url": "http://stg.services.renins.com/RsaIntegrationService/RsaService.svc", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(93)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(93)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(94)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 94, "Name": "services.renins.com/NsPropertyISSI/", "Description": "Prod", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(94)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(94)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(96)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 96, "Name": "stg.services.renins.com/NsPropertyISSI/", "Description": "Stage", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(96)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(96)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(97)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 97, "Name": "test1.services.renins.com/NsPropertyISSITest/", "Description": "Test", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(97)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(97)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(98)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 98, "Name": "test1.services.renins.com/NsPropertyISSIDev/", "Description": "Dev", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(98)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(98)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(99)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 99, "Name": "stg-online.renins.com/RaiffeisenService", "Description": "Test", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(99)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(99)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(100)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 100, "Name": "online.renins.com/RaiffeisenService", "Description": "Prod", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(100)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(100)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(101)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 101, "Name": "NotificationServiceTest", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(101)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(101)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(102)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 102, "Name": "NotificationServiceStage", "Description": null, "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(102)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(102)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(103)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 103, "Name": "NotificationServiceProd", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(103)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(103)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(104)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 104, "Name": "NotificationServiceClientTest", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(104)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(104)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(105)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 105, "Name": "NotificationServiceClientStage", "Description": null, "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(105)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(105)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(106)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 106, "Name": "NotificationServiceClientProd", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(106)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(106)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(107)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 107, "Name": "RaiffeisenDirectExchangeServiceTest", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(107)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(107)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(108)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 108, "Name": "RaiffeisenDirectExchangeServiceProd", "Description": null, "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(108)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(108)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(109)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 109, "Name": "test1.prod.renins.com/SFA", "Description": null, "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(109)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(109)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(110)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 110, "Name": "stg.prod.renins.com/SFA", "Description": null, "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(110)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(110)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(111)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 111, "Name": "AdfoxFtpFetcher-Jenkins-StgOnline", "Description": "Jenkins (stg-online)", "Type": "Prod", "Url": "stg-online.renins.com/jenkins/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(111)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(111)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(112)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 112, "Name": "RaiffeisenDirectExchangeServiceStage", "Description": "Stage", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(112)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(112)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(113)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 113, "Name": "MdmIntegrationService", "Description": "Prod", "Type": "Prod", "Url": "http://services.renins.com/MdmService/MDMIntegrationService.svc", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(113)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(113)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(114)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 114, "Name": "MdmIntegrationServiceTest", "Description": "Test + Stage", "Type": "Test", "Url": "http://test1.services.renins.com/MdmService/MDMIntegrationService.svc", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(114)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(114)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(115)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 115, "Name": "AdfoxFtpFetcher-Dev", "Description": "Dev + Local", "Type": "Dev", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(115)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(115)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(116)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 116, "Name": "stg.services.renins.com/TravelISS/", "Description": "\u0421\u0422\u0413 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0422\u0443\u0440\u0438\u0437\u043c\u0443", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(116)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(116)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(117)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 117, "Name": "test1.prod.renins.com/SecurityServices", "Description": "\u0422\u0435\u0441\u0442", "Type": "Test", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(117)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(117)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(118)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 118, "Name": "stg.prod.renins.com/SecurityServices", "Description": "\u0421\u0442\u0435\u0439\u0434\u0436", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(118)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(118)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(119)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 119, "Name": "prod.renins.com/SecurityServices", "Description": "\u041f\u0440\u043e\u0434", "Type": "Prod", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(119)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(119)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(120)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 120, "Name": "InternalServicesStage", "Description": "Stage", "Type": "Stage", "Url": "http://stg.services.renins.com/InternalServices/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(120)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(120)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(121)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 121, "Name": "stg.services.renins.com/PropertyISS/", "Description": "\u0421\u0422\u0413 \u0441\u0435\u0440\u0432\u0438\u0441 Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0418\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0443", "Type": "Stage", "Url": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(121)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(121)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(122)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 122, "Name": "test1.services.renins.com/HealthISSDev/", "Description": "Dev-\u0441\u0435\u0440\u0432\u0438\u0441\u044b Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041c\u0435\u0434.\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e", "Type": "Dev", "Url": "http://test1.services.renins.com/HealthISSDev/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(122)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(122)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(123)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 123, "Name": "test1.services.renins.com/HealthISS/", "Description": "Test-\u0441\u0435\u0440\u0432\u0438\u0441\u044b Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041c\u0435\u0434.\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e", "Type": "Test", "Url": "http://test1.services.renins.com/HealthISS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(123)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(123)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(124)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 124, "Name": "stg.services.renins.com/HealthISS/", "Description": "Stage-\u0441\u0435\u0440\u0432\u0438\u0441\u044b Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041c\u0435\u0434.\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e", "Type": "Stage", "Url": "http://stg.services.renins.com/HealthISS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(124)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(124)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(125)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 125, "Name": "services.renins.com/HealthISS/", "Description": "Prod-\u0441\u0435\u0440\u0432\u0438\u0441\u044b Link \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041c\u0435\u0434.\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e", "Type": "Prod", "Url": "http://services.renins.com/HealthISS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(125)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(125)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(126)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 126, "Name": "test1.services.renins.com/TravelPPSDev/", "Description": "Dev-\u0441\u0435\u0440\u0432\u0438\u0441\u044b SFA/Link Travel", "Type": "Dev", "Url": "http://test1.services.renins.com/TravelPPSDev/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(126)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(126)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(127)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 127, "Name": "test1.services.renins.com/TravelPPS/", "Description": "Test-\u0441\u0435\u0440\u0432\u0438\u0441\u044b SFA/Link Travel", "Type": "Test", "Url": "http://test1.services.renins.com/TravelPPS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(127)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(127)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(128)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 128, "Name": "stg.services.renins.com/TravelPPS/", "Description": "Stage-\u0441\u0435\u0440\u0432\u0438\u0441\u044b SFA/Link Travel", "Type": "Stage", "Url": "http://stg.services.renins.com/TravelPPS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(128)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(128)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(129)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 129, "Name": "services.renins.com/TravelPPS/", "Description": "Prod-\u0441\u0435\u0440\u0432\u0438\u0441\u044b SFA/Link Travel", "Type": "Prod", "Url": "http://services.renins.com/TravelPPS/", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(129)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(129)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(130)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 130, "Name": "HrPortal-Test", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Test", "Url": "http://test-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(130)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(130)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(131)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 131, "Name": "HrPortal-Stage", "Description": "\u0421\u0442\u0435\u0439\u0434\u0436\u0435\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Stage", "Url": "http://stg-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(131)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(131)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(132)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 132, "Name": "HrPortal-Prod", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Prod", "Url": "http://online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(132)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(132)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(133)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 133, "Name": "HrExchange-Test", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Test", "Url": "http://test-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(133)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(133)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(134)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 134, "Name": "HrExchange-Stage", "Description": "\u0421\u0442\u0435\u0439\u0434\u0436\u0435\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Stage", "Url": "http://stg-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(134)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(134)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(135)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 135, "Name": "HrExchange-Prod", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Prod", "Url": "http://online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(135)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(135)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(136)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 136, "Name": "HrScheduler-Test", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Test", "Url": "http://test-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(136)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(136)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(137)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 137, "Name": "HrScheduler-Stage", "Description": "\u0421\u0442\u0435\u0439\u0434\u0436\u0435\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Stage", "Url": "http://stg-online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(137)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(137)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(138)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 138, "Name": "HrScheduler-Prod", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Prod", "Url": "http://online.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(138)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(138)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(139)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 139, "Name": "Box-Test", "Description": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Test", "Url": "http://test3.www.renins.com/box", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(139)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(139)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(140)", "type": "UnilogModel.ApplicationHost"
+}, "ID": 140, "Name": "Box-Prod", "Description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0430", "Type": "Prod", "Url": "http://online.renins.com/box", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(140)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/ApplicationHost(140)/BusinessProcess"
+}
+}
+}
+]
+}

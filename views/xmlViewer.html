@@ -1,0 +1,34 @@
+<table cellpadding="0" cellspacing="0" style="width:2500px;">
+  <tr class="fnt" ng-repeat="line in Lines track by $index" ng-show="line.RowVisible">
+    <td class="rowNum">{{line.StartRownumber}}</td>
+    <td ng-if="line.HasChildren && !line.LeafClosed"  class="rowPNode pnt" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
+    <td ng-if="line.HasChildren && line.LeafClosed"  class="rowMNode pnt" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
+    <td ng-if="!line.HasChildren" class="rowNNode"></td>
+    <td class="tRow">
+      <div id="row{{line.StartRownumber}}" class="xmlRow" ng-show="line.RowVisible">
+        <span>
+          <div class="elDiv"  ng-bind-html="line.Tab"></div>
+          <div class="elDiv" ng-if="line.StartDomNode !== undefined">
+            <div class="ang">&lt;</div><div class="el">{{line.StartDomNode.localName}}</div>
+            <div class="attDiv" ng-repeat="attr in line.StartDomNode.attributes">
+              <div class="spAtr">{{attr.nodeName}}</div><div class="val">=</div><div class="quo">"</div><div class="val">{{attr.nodeValue}}</div><div class="quo">"</div>
+            </div>
+            <div class="ang">&gt;</div>
+            <div id="endRow{{line.StartRownumber}}" ng-class="{endRowH:!line.LeafClosed, endRowS:line.LeafClosed}">
+              <div class="elDiv" ng-if="line.HasChildren" >...</div>
+              <div class="elDiv" ng-if="line.HasChildren">
+                <div class="ang">&lt;/</div><div class="el">{{line.StartDomNode.localName}}</div><div class="ang">&gt;</div>
+              </div>
+            </div>
+          </div>
+          <div class="elDiv" ng-if="line.EndDomNode !== undefined && line.StartDomNode !== undefined">
+            {{line.EndDomNode.textContent}}
+          </div>
+          <div class="elDiv" ng-if="line.EndDomNode !== undefined">
+            <div class="ang">&lt;/</div><div class="el">{{line.EndDomNode.localName}}</div><div class="ang">&gt;</div>
+          </div>
+        </span>
+      </div>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,377 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(1)", "type": "UnilogModel.Application"
+}, "ID": 1, "Name": "Intranet", "Description": null, "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(1)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(1)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(4)", "type": "UnilogModel.Application"
+}, "ID": 4, "Name": "B2B", "Description": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u04122\u0412 \u0434\u043b\u044f \u0432\u0432\u043e\u0434\u0430 \u043f\u043e\u043b\u0438\u0441\u043e\u0432", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(4)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(4)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(7)", "type": "UnilogModel.Application"
+}, "ID": 7, "Name": "Workflow", "Description": "\u041f\u0440\u043e\u0435\u043a\u0442 Workflow", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(7)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(7)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(9)", "type": "UnilogModel.Application"
+}, "ID": 9, "Name": "DI", "Description": "\u0412\u0435\u0431-\u0441\u0430\u0439\u0442 \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f, direct.renins.com", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(9)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(9)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(10)", "type": "UnilogModel.Application"
+}, "ID": 10, "Name": "PrintService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u043f\u0435\u0447\u0430\u0442\u0438 B2B", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(10)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(10)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(12)", "type": "UnilogModel.Application"
+}, "ID": 12, "Name": "DI.OnlineAgent", "Description": "\u0412\u0435\u0431-\u0441\u0430\u0439\u0442 \u043e\u043d\u043b\u0430\u0439\u043d \u0430\u0433\u0435\u043d\u0442\u0430 \u0434\u043b\u044f \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(12)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(12)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(14)", "type": "UnilogModel.Application"
+}, "ID": 14, "Name": "Prolongation", "Description": "\u041f\u0440\u043e\u043b\u043e\u043d\u0433\u0430\u0446\u0438\u044f \u043f\u043e\u043b\u0438\u0441\u043e\u0432 DI", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(14)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(14)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(17)", "type": "UnilogModel.Application"
+}, "ID": 17, "Name": "TravelPolicyIntegrationService", "Description": "Link c\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u0438\u0441\u043e\u0432 \u043f\u043e \u0422\u0443\u0440\u0438\u0437\u043c\u0443", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(17)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(17)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(18)", "type": "UnilogModel.Application"
+}, "ID": 18, "Name": "AccidentPolicyIntegrationService", "Description": "Link c\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u0438\u0441\u043e\u0432 \u043f\u043e \u041d\u0421", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(18)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(18)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(19)", "type": "UnilogModel.Application"
+}, "ID": 19, "Name": "PropertyPolicyIntegrationService", "Description": "Link c\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u0438\u0441\u043e\u0432 \u043f\u043e \u0418\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0443", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(19)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(19)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(20)", "type": "UnilogModel.Application"
+}, "ID": 20, "Name": "InternalServices", "Description": "\u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(20)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(20)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(21)", "type": "UnilogModel.Application"
+}, "ID": 21, "Name": "RsaIntegrationService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 \u0420\u0421\u0410", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(21)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(21)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(22)", "type": "UnilogModel.Application"
+}, "ID": 22, "Name": "PolicyProcessingService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u0438\u0441\u043e\u0432", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(22)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(22)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(23)", "type": "UnilogModel.Application"
+}, "ID": 23, "Name": "PartnerIntegrationService", "Description": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u0434\u043b\u044f \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u043e\u0432", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(23)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(23)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(24)", "type": "UnilogModel.Application"
+}, "ID": 24, "Name": "InternalIntegrationService", "Description": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0438 \u043b\u043e\u0433\u0438\u043a\u0438", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(24)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(24)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(25)", "type": "UnilogModel.Application"
+}, "ID": 25, "Name": "CalcPrim", "Description": "\u0424\u0440\u043e\u043d\u0442-\u0434\u0432\u0438\u0436\u043e\u043a \u043f\u0440\u0438\u043c\u0438\u0442\u0438\u0432\u043e\u0432", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(25)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(25)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(26)", "type": "UnilogModel.Application"
+}, "ID": 26, "Name": "LinkIntegrationService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u0432 Sybase (TIM, MIS, GIS), Link1", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(26)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(26)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(27)", "type": "UnilogModel.Application"
+}, "ID": 27, "Name": "NsPropertyIntegrationServicesInt", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 Sybase (TIM, MIS, GIS)", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(27)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(27)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(29)", "type": "UnilogModel.Application"
+}, "ID": 29, "Name": "OnlinePaymentService", "Description": "\u0421\u043b\u0443\u0436\u0431\u0430 \u043e\u043d\u043b\u0430\u0439\u043d-\u043f\u043b\u0430\u0442\u0435\u0436\u0435\u0439", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(29)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(29)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(30)", "type": "UnilogModel.Application"
+}, "ID": 30, "Name": "NotificationService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(30)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(30)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(31)", "type": "UnilogModel.Application"
+}, "ID": 31, "Name": "NotificationServiceClient", "Description": "\u041a\u043b\u0438\u0435\u043d\u0442\u044b \u0421\u0435\u0440\u0432\u0438\u0441\u0430 \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(31)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(31)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(32)", "type": "UnilogModel.Application"
+}, "ID": 32, "Name": "RaiffeisenDirectExchangeService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0437\u0431\u0438\u0432\u043a\u0438 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043f\u043b\u0430\u0442\u0435\u0436\u0435\u0439", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(32)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(32)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(33)", "type": "UnilogModel.Application"
+}, "ID": 33, "Name": "AdfoxFtpFetcher", "Description": "\u0417\u0430\u0433\u0440\u0443\u0437\u0447\u0438\u043a \u0434\u0430\u043d\u043d\u044b\u0445 \u0441 FTP Adfox", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(33)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(33)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(34)", "type": "UnilogModel.Application"
+}, "ID": 34, "Name": "MdmIntegrationService", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 MDM", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(34)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(34)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(35)", "type": "UnilogModel.Application"
+}, "ID": 35, "Name": "SecurityServices", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441\u044b \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(35)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(35)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(36)", "type": "UnilogModel.Application"
+}, "ID": 36, "Name": "LinkHealthISS", "Description": "Link \u0441\u0435\u0440\u0432\u0438\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u041c\u0435\u0434.\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(36)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(36)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(37)", "type": "UnilogModel.Application"
+}, "ID": 37, "Name": "TravelPPS (disabled)", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441\u044b \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u0438\u0441\u043e\u0432 Travel", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(37)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(37)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(38)", "type": "UnilogModel.Application"
+}, "ID": 38, "Name": "HrPortal", "Description": "Hr-\u043f\u043e\u0440\u0442\u0430\u043b \u0441 \u043f\u043e\u043b\u0438\u0441\u0430\u043c\u0438 \u0414\u041c\u0421", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(38)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(38)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(39)", "type": "UnilogModel.Application"
+}, "ID": 39, "Name": "HrExchange", "Description": "Hr-exchange \u0434\u043b\u044f \u043f\u043e\u043b\u0438\u0441\u043e\u0432 \u0414\u041c\u0421", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(39)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(39)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(40)", "type": "UnilogModel.Application"
+}, "ID": 40, "Name": "HrScheduler", "Description": "Hr-scheduler \u043f\u043e \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u0438\u0441\u043e\u0432 \u0414\u041c\u0421 \u0441 MIS", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(40)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(40)/BusinessProcess"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(41)", "type": "UnilogModel.Application"
+}, "ID": 41, "Name": "Box", "Description": "\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0430\u043a\u0442\u0438\u0432\u0430\u0446\u0438\u0438 \u043a\u043e\u0440\u043e\u0431\u043e\u043a", "Source": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(41)/Source"
+}
+}, "BusinessProcess": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/Application(41)/BusinessProcess"
+}
+}
+}
+]
+}

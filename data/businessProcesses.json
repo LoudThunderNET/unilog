@@ -1,0 +1,533 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(2)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 2, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u0420\u0430\u0441\u0447\u0435\u0442", "Description": "\u0420\u0430\u0441\u0447\u0435\u0442 \u043d\u043e\u0432\u043e\u0433\u043e \u041f\u043e\u043b\u0438\u0441\u0430 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0440\u0430\u0441\u0447\u0435\u0442 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0433\u043e.", "DisplayOrder": 1, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.IntegrationService", "FilterMethodName": "MakeCalculation", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(2)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(2)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(3)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 3, "ApplicationID": 22, "ApplicationHostID": null, "Name": "\u041a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0443\u0434\u0430\u043b\u0435\u043d\u0430 \u0438\u0437 \u043a\u044d\u0448\u0430", "Description": "", "DisplayOrder": null, "FilterMessageText": "RemoveFromCache", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "RemoveFromCache", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(3)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(3)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(4)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 4, "ApplicationID": 22, "ApplicationHostID": null, "Name": "Link: \u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 ProcessChanges", "Description": "", "DisplayOrder": null, "FilterMessageText": "ProcessChanges", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "ProcessChanges", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(4)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(4)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(5)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 5, "ApplicationID": 22, "ApplicationHostID": null, "Name": "Link: \u041d\u0430\u0436\u0430\u0442\u0430 \u043a\u043d\u043e\u043f\u043a\u0430", "Description": "", "DisplayOrder": null, "FilterMessageText": "DoActions", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "DoActions", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(5)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(5)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(6)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 6, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041e\u0421\u0421: \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0430 \"\u0426\u0435\u043f\u043e\u0447\u043a\u0438 \u041f\u0440\u043e\u0434\u0430\u0436\"", "Description": "\u041c\u0435\u0442\u043e\u0434 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0439 \u041e\u0431\u044a\u0435\u043a\u0442", "DisplayOrder": null, "FilterMessageText": "UpdateUsersChainsDictionary", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(6)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(6)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(7)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 7, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041e\u0421\u0421: \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0430 \"\u0426\u0435\u043f\u043e\u0447\u043a\u0438 \u041f\u0440\u043e\u0434\u0430\u0436\"", "Description": "\u041c\u0435\u0442\u043e\u0434 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0439 Base64-\u0441\u0442\u0440\u043e\u043a\u0443", "DisplayOrder": null, "FilterMessageText": "UpdateUsersChainsDictionaryFromXmlBase64", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(7)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(7)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(8)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 8, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u0418\u043c\u043f\u043e\u0440\u0442", "Description": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0438\u043c\u043f\u043e\u0440\u0442\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439 \u041f\u043e\u043b\u0438\u0441", "DisplayOrder": 10, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerImportService", "FilterMethodName": "ImportPolicy", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(8)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(8)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(9)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 9, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u041f\u0435\u0447\u0430\u0442\u044c (\u043a\u043b\u044e\u0447, 1 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442)", "Description": "\u041f\u0435\u0447\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430 \u041f\u043e\u043b\u0438\u0441\u0430, \u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435\u043c \u043a\u043b\u044e\u0447\u0430", "DisplayOrder": 20, "FilterMessageText": "PrintDocumentByPolicyId", "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "PrintDocumentByPolicyId", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(9)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(9)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(10)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 10, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u041f\u0435\u0447\u0430\u0442\u044c (\u043a\u043b\u044e\u0447, 1-* \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432)", "Description": "\u041f\u0435\u0447\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u0438\u043b\u0438 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u041f\u043e\u043b\u0438\u0441\u0430, \u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435\u043c \u043a\u043b\u044e\u0447\u0435\u0439", "DisplayOrder": 21, "FilterMessageText": "PrintDocumentsByPolicyId", "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "PrintDocumentsByPolicyId", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(10)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(10)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(11)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 11, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u041f\u0435\u0447\u0430\u0442\u044c (\u0431\u0430\u0439\u0442\u044b, 1 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442)", "Description": "\u041f\u0435\u0447\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430 \u041f\u043e\u043b\u0438\u0441\u0430, \u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432\u0430 \u0431\u0430\u0439\u0442", "DisplayOrder": 22, "FilterMessageText": "PrintDocumentToBinaryByPolicyId", "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "PrintDocumentToBinaryByPolicyId", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(11)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(11)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(12)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 12, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u041f\u0435\u0447\u0430\u0442\u044c (\u0431\u0430\u0439\u0442\u044b, 1-* \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432)", "Description": "\u041f\u0435\u0447\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0433\u043e \u0438\u043b\u0438 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u041f\u043e\u043b\u0438\u0441\u0430, \u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432\u043e\u0432 \u0431\u0430\u0439\u0442", "DisplayOrder": 23, "FilterMessageText": "PrintDocumentsToBinaryByPolicyId", "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "PrintDocumentsToBinaryByPolicyId", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(12)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(12)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(13)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 13, "ApplicationID": 23, "ApplicationHostID": null, "Name": "Link: \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438", "Description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u043f\u043e \u043a\u043b\u044e\u0447\u0443 \u043d\u0430 \u0440\u0430\u0441\u043f\u0435\u0447\u0430\u0442\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442", "DisplayOrder": 30, "FilterMessageText": "GetDocumentInUrl", "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "GetDocumentInUrl", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(13)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(13)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(14)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 14, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u0417\u0430\u043f\u0440\u043e\u0441 \u041a\u0411\u041c", "Description": "\u041c\u0435\u0442\u043e\u0434 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0439 XML", "DisplayOrder": 1, "FilterMessageText": "RsaService", "FilterAdditionalInfo": "DoXmlRequest", "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "68;69;105", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(14)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(14)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(15)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 15, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u0417\u0430\u043f\u0440\u043e\u0441 \u041a\u0411\u041c", "Description": "\u041c\u0435\u0442\u043e\u0434 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0439 \u0421\u0442\u0440\u043e\u043a\u0443", "DisplayOrder": 2, "FilterMessageText": "RsaService", "FilterAdditionalInfo": "DoXmlRequestString", "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "68;69;105", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(15)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(15)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(16)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 16, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043e\u0442 ESB (\u0434\u043e 20.08)", "Description": "\u041c\u0435\u0442\u043e\u0434 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u0439 ESB \u0434\u043b\u044f \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435", "DisplayOrder": 3, "FilterMessageText": "RsaService", "FilterAdditionalInfo": "UpdateEsbError", "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "68;69;105", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(16)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(16)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(17)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 17, "ApplicationID": 23, "ApplicationHostID": null, "Name": "\u041d\u0421: \u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0432 LIS", "Description": null, "DisplayOrder": 102, "FilterMessageText": "SetSendStatusToLIS", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(17)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(17)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(18)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 18, "ApplicationID": 23, "ApplicationHostID": null, "Name": "\u041d\u0421: \u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \"SentToSybase\"", "Description": null, "DisplayOrder": 101, "FilterMessageText": "SetSendStatus", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(18)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(18)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(19)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 19, "ApplicationID": 23, "ApplicationHostID": null, "Name": "\u041d\u0421: \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 XML-\u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0433\u043e", "Description": null, "DisplayOrder": 100, "FilterMessageText": "GetStringPolicyByPolicyNumber", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(19)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(19)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(20)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 20, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u0421\u0434\u0435\u043b\u0430\u0439 Uni \u0434\u043b\u044f \u041e\u0421\u0421", "Description": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u04122\u0412 \u0433\u043e\u0442\u043e\u0432\u0438\u0442 UniversalPolicy \u043f\u043e \u043f\u0440\u043e\u0441\u044c\u0431\u0435 ActiveVos  \u0434\u043b\u044f \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u0432 \u041e\u0421\u0421", "DisplayOrder": null, "FilterMessageText": "GetUniversalPolicyXml", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(20)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(20)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(21)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 21, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041e\u0422\u0410: \u041e\u0421\u0421 \u043f\u0440\u043e\u0432\u0435\u0440\u0438\u043b \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0443", "Description": "\u041e\u0421\u0421 \u0432\u044b\u0437\u0432\u0430\u043b \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0438", "DisplayOrder": null, "FilterMessageText": "UpdatePolicyFromUniDocument", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(21)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(21)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(22)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 22, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0432 Avos", "Description": "\u041a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0431\u044b\u043b\u0430 \u043f\u043e\u0441\u043b\u0430\u043d\u0430 \u0432 ActiveVos \u0441 \u043a\u0430\u043a\u043e\u0439-\u0442\u043e \u043a\u043e\u043c\u0430\u043d\u0434\u043e\u0439", "DisplayOrder": null, "FilterMessageText": "SendDataToActiveVos", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(22)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(22)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(23)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 23, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0434\u043e\u0448\u043b\u0430 \u0434\u043e \u041e\u0421\u0421", "Description": "\u041e\u0421\u0421 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043d\u0430 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0438", "DisplayOrder": null, "FilterMessageText": "SavePolicyIntegrationStatus", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(23)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(23)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(24)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 24, "ApplicationID": 24, "ApplicationHostID": null, "Name": "Commissions - \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u0438", "Description": "\u0418\u0437 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0438 \u0431\u044b\u043b \u0432\u044b\u0437\u0432\u0430\u043d \u0441\u0435\u0440\u0432\u0438\u0441 \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u0439", "DisplayOrder": null, "FilterMessageText": "GetCommissionFromAIS ", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(24)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(24)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(25)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 25, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u0417\u0430\u043a\u0430\u0447\u043a\u0430 \u0438\u0437 \u041e\u0421\u0421", "Description": "\u0417\u0430\u043a\u0430\u0447\u043a\u0430 \u043d\u0430 \u043f\u0440\u043e\u043b\u043e\u043d\u0433\u0430\u0446\u0438\u044e/\u0432\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439", "DisplayOrder": null, "FilterMessageText": "GetDataFromOSS", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(25)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(25)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(29)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 29, "ApplicationID": -1, "ApplicationHostID": null, "Name": "Link", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441\u044b \u0412\u043d\u0435\u0448\u043d\u0435\u0439 \u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438", "DisplayOrder": 10, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": "PartnerIntegrationService.IntegrationService;PartnerIntegrationService.PartnerImportService;PartnerIntegrationService.PartnerPrintService", "FilterMethodName": "MakeCalculation;GetStringPolicyByPolicyNumber;ImportPolicy;GetDocumentInUrl;PrintDocumentByPolicyId;PrintDocumentsByPolicyId;PrintDocumentToBinaryByPolicyId;PrintDocumentsToBinaryByPolicyId", "FilterSourceIDs": "85;86;87;89", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(29)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(29)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(31)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 31, "ApplicationID": 24, "ApplicationHostID": null, "Name": "Commissions - \u0430\u0441\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u0430\u044f \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438", "Description": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0432 \u0441\u0435\u0440\u0432\u0438\u0441 Comm \u043e \u043f\u0440\u0438\u043d\u044f\u0442\u043e\u0439 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u0438", "DisplayOrder": null, "FilterMessageText": "SendCommissionsToAis ", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(31)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(31)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(32)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 32, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0438\u0437 BAM", "Description": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u043f\u043e\u043b\u0438\u0441\u0430 \u0438\u0437 BAM (GetBSO_state) \u043f\u043e BSO-\u043d\u043e\u043c\u0435\u0440\u0443 \u043f\u043e\u043b\u0438\u0441\u0430", "DisplayOrder": null, "FilterMessageText": "GetBSO_state", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(32)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(32)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(33)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 33, "ApplicationID": -1, "ApplicationHostID": null, "Name": "\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f", "Description": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 \u0438 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u041a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u043a \u043d\u0435\u043c\u0443", "DisplayOrder": 11, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "113;114;115;116;117;118", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(33)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(33)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(34)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 34, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043a\u043e\u0434\u0430 \u041a\u041b\u0410\u0414\u0420", "Description": "\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043a\u043e\u0434\u0430 \u041a\u041b\u0410\u0414\u0420 \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443", "DisplayOrder": null, "FilterMessageText": "doClean", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(34)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(34)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(35)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 35, "ApplicationID": 6, "ApplicationHostID": null, "Name": "MDM: \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0430 \u0432 B2B", "Description": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u0430\u043a\u0435\u0442\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0439 \u043e\u0442 MDM \u0432 B2B", "DisplayOrder": null, "FilterMessageText": "MDMIntegrationService.Web;MDMIntegrationService.Local", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(35)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(35)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(36)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 36, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043e\u0442 ESB (\u043f\u043e\u0441\u043b\u0435 20.08)", "Description": "\u041c\u0435\u0442\u043e\u0434 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u0439 ESB \u0434\u043b\u044f \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435", "DisplayOrder": 4, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": "RsaIntegrationService.RsaService", "FilterMethodName": "UpdateEsbError", "FilterSourceIDs": "68;69;105", "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(36)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(36)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(37)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 37, "ApplicationID": 4, "ApplicationHostID": null, "Name": "\u041f\u0435\u0447\u0430\u0442\u044c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430", "Description": "\u041f\u0435\u0447\u0430\u0442\u044c, \u0432\u044b\u0437\u0432\u0430\u043d\u043d\u0430\u044f \u0441\u043e \u0441\u0442\u0430\u0440\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b showDox", "DisplayOrder": null, "FilterMessageText": "PrintDocument", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(37)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(37)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(38)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 38, "ApplicationID": 4, "ApplicationHostID": null, "Name": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a", "Description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 settings.aspx", "DisplayOrder": null, "FilterMessageText": "SFAUserChangeSettings", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(38)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(38)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(39)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 39, "ApplicationID": -1, "ApplicationHostID": null, "Name": "\u041e\u0422\u0410: \u0412\u0441\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f", "Description": "\u0412\u0441\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u041e\u0422\u0410 (\u041e\u043d\u043b\u0430\u0439\u043d \u0422\u0435\u0445. \u0410\u043d\u0434\u0435\u0440\u0440\u0430\u0439\u0442\u0438\u043d\u0433\u0430)", "DisplayOrder": 20, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "aCancelCheckDocuments;aCancelCheckDocumentsByTimer;aCdpCheckEndExplicit;aCdpCheckReady;aCdpCheckStart;aCDPLoadDocumentComplete;aCheckBenInBlackList;aCheckDocuments;aCreateFakeCDPDocumentPack;aDoPrintPolicyOriginal;aLoadDocuments;aLoadDocumentsAndSave;aOnlineUnderwritingFailed;aOnlineUnderwritingSucceded;aPrintOriginal;aProcessTimer1Check;aProcessTimer2Check;CSPIDifference;DisableOTAForPolicy;EnableOTAForPolicy;UpdatePolicyFromUNIDocument;GetUniversalPolicy;SavePolicyIntegrationStatus;SendDataToActiveVos;ReponseForWebBackEnd;OTATimer1;OTATimer2;PolicyModified;GetUniversalPolicyXml;UpdatePolicyFromUNIBase64", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(39)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(39)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(40)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 40, "ApplicationID": 7, "ApplicationHostID": null, "Name": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0432 \u041e\u0421\u0421", "Description": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430\u043c \u0432 \u041e\u0421\u0421", "DisplayOrder": 1, "FilterMessageText": "SendToOss", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(40)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(40)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(41)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 41, "ApplicationID": 7, "ApplicationHostID": null, "Name": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0432 SendSay", "Description": "\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u043c \u043f\u043e \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430\u043c \u0432 SendSay", "DisplayOrder": 2, "FilterMessageText": "SendToSendSay;SendToSendSayViaEsb", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(41)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(41)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(42)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 42, "ApplicationID": 24, "ApplicationHostID": null, "Name": "\u0420\u0435\u0437\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u043e\u043c\u0435\u0440\u043e\u0432 \u041a\u0430\u0441\u043a\u043e \u0438 \u0414\u0410\u0413\u041e", "Description": "\u0420\u0435\u0437\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u043e\u043c\u0435\u0440\u043e\u0432 \u041a\u0430\u0441\u043a\u043e \u0438 \u0414\u0410\u0413\u041e", "DisplayOrder": null, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "ReservPolicyNumbers", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(42)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(42)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(43)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 43, "ApplicationID": -1, "ApplicationHostID": null, "Name": "DI \u0417\u0430\u043f\u0440\u043e\u0441\u044b \u0432 Siebel \u043d\u0430 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0434\u0430\u0432\u0446\u0430 \u0443 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0438", "Description": null, "DisplayOrder": null, "FilterMessageText": "InvokeSiebelBSMethod", "FilterAdditionalInfo": "SavePolicyAndClient.RetriveEmployeeByIdAndSendEmail_ExecuteCode (\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0434\u0430\u0432\u0446\u0430,AssignQuote)", "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "33", "FilterMessageType": "1", "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(43)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(43)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(44)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 44, "ApplicationID": -1, "ApplicationHostID": null, "Name": "TEST WD-13695", "Description": null, "DisplayOrder": null, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": "33", "FilterMessageType": "1;3", "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(44)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(44)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(45)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 45, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u0435\u041e\u0421\u0410\u0413\u041e: \u041f\u0435\u0440\u0435\u0432\u043e\u0434 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\"", "Description": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043a ESB \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\" \u0438 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u0435 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u0437\u043e\u0432\u0430", "DisplayOrder": 5, "FilterMessageText": null, "FilterAdditionalInfo": "%DraftPolicyStatus : 1%", "FilterServiceName": null, "FilterMethodName": "SetPolicyStatus", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(45)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(45)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(46)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 46, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u0435\u041e\u0421\u0410\u0413\u041e: \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\"", "Description": "\u041e\u0431\u0440\u0430\u0442\u043d\u044b\u0439 \u0432\u044b\u0437\u043e\u0432 \u043e\u0442 ESB \u0441 IsStatusAssign=true \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\"", "DisplayOrder": 6, "FilterMessageText": null, "FilterAdditionalInfo": "%IsStatusAssign : True%", "FilterServiceName": null, "FilterMethodName": "UpdateEsbSetPolicyStatusResult", "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(46)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(46)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(47)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 47, "ApplicationID": 21, "ApplicationHostID": null, "Name": "\u0435\u041e\u0421\u0410\u0413\u041e: \u041e\u0442\u043c\u0435\u043d\u0430/\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\"", "Description": "\u041e\u0431\u0440\u0430\u0442\u043d\u044b\u0439 \u0432\u044b\u0437\u043e\u0432 \u043e\u0442 ESB \u0441 IsStatusAssign=false \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0432 \"\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439\" \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430", "DisplayOrder": 7, "FilterMessageText": null, "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": "UpdateEsbSetPolicyStatusResult", "FilterSourceIDs": null, "FilterMessageType": "1;2", "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(47)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(47)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(48)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 48, "ApplicationID": 23, "ApplicationHostID": null, "Name": "\u041d\u0421: \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 \u043d\u043e\u043c\u0435\u0440\u043e\u0432 \u0434\u043b\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438", "Description": null, "DisplayOrder": 103, "FilterMessageText": "GetPoliciesNumbersForIntegration", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(48)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(48)/ApplicationHost"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(49)", "type": "UnilogModel.BusinessProcess"
+}, "ID": 49, "ApplicationID": 4, "ApplicationHostID": null, "Name": "\u0410\u0434\u043c\u0438\u043d\u043a\u0430: \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438 \u043b\u043e\u0433\u0438\u043d\u0430", "Description": "\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0430 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u0432 \u0430\u0434\u043c\u0438\u043d\u043a\u0435 \u04122\u0412", "DisplayOrder": null, "FilterMessageText": "AdminUserChangeSettings", "FilterAdditionalInfo": null, "FilterServiceName": null, "FilterMethodName": null, "FilterSourceIDs": null, "FilterMessageType": null, "Application": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(49)/Application"
+}
+}, "ApplicationHost": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/BusinessProcess(49)/ApplicationHost"
+}
+}
+}
+]
+}

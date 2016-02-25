@@ -1,0 +1,21 @@
+{
+  "OperationId"         : "",
+  "Count"               : 0,
+  "MessageIdFrom"       : 0,
+  "MessageIdTo"         : 0,
+  "SourceIdValues"      : [0, 1],
+  "CreationDateFrom"    : "\/Date(1453143216941+0300)\/",
+  "CreationDateTo"      : "\/Date(1453143216941+0300)\/",
+  "MessageTypeValues"   : [],
+  "MesageTextValues"    : [""],
+  "AdditionalInfoValues": [""],
+  "ServiceNameValues"   : [""],
+  "MethodNameValues"    : [""],
+  "ParamValueExpressionMode":"None","LogicalAnd","LogicalOr",
+  "ParamValueConditions": [
+                            {
+                              "ParamId"     :0,
+                              "StringValues":[""]
+                            }
+                          ]
+}

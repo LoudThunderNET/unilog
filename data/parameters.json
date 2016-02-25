@@ -1,0 +1,293 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(1)", "type": "UnilogModel.MessageParam"
+}, "ID": 1, "Code": "AccountNumber", "Name": "\u041d\u043e\u043c\u0435\u0440 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0438", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(1)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(2)", "type": "UnilogModel.MessageParam"
+}, "ID": 2, "Code": "CascoNumber", "Name": "\u041d\u043e\u043c\u0435\u0440 \u043a\u0430\u0441\u043a\u043e", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(2)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(3)", "type": "UnilogModel.MessageParam"
+}, "ID": 3, "Code": "OsagoNumber", "Name": "\u041d\u043e\u043c\u0435\u0440 \u043e\u0441\u0430\u0433\u043e", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(3)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(4)", "type": "UnilogModel.MessageParam"
+}, "ID": 4, "Code": "DagoNumber", "Name": "\u041d\u043e\u043c\u0435\u0440 \u0434\u0430\u0433\u043e", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(4)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(5)", "type": "UnilogModel.MessageParam"
+}, "ID": 5, "Code": "StartDate", "Name": "\u0414\u0430\u0442\u0430 \u043d\u0430\u0447\u0430\u043b\u0430", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(5)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(6)", "type": "UnilogModel.MessageParam"
+}, "ID": 6, "Code": "EndDate", "Name": "\u0414\u0430\u0442\u0430 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(6)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(7)", "type": "UnilogModel.MessageParam"
+}, "ID": 7, "Code": "ApplicationUser", "Name": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(7)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(8)", "type": "UnilogModel.MessageParam"
+}, "ID": 8, "Code": "SiebelID", "Name": "SiebelID", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(8)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(9)", "type": "UnilogModel.MessageParam"
+}, "ID": 9, "Code": "PolicyID", "Name": "ID \u043f\u043e\u043b\u0438\u0441\u0430 \u0432 B2B", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(9)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(10)", "type": "UnilogModel.MessageParam"
+}, "ID": 10, "Code": "PartnerName", "Name": "\u0418\u043c\u044f \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0430", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(10)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(11)", "type": "UnilogModel.MessageParam"
+}, "ID": 11, "Code": "CashbookID", "Name": "\u041a\u0435\u0448\u0431\u0443\u043a ID", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(11)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(12)", "type": "UnilogModel.MessageParam"
+}, "ID": 12, "Code": "UserID", "Name": "UserID", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(12)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(13)", "type": "UnilogModel.MessageParam"
+}, "ID": 13, "Code": "UserRole", "Name": "\u0420\u043e\u043b\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(13)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(14)", "type": "UnilogModel.MessageParam"
+}, "ID": 14, "Code": "Url", "Name": "Url", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(14)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(15)", "type": "UnilogModel.MessageParam"
+}, "ID": 15, "Code": "Page", "Name": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 aspx, asmx", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(15)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(16)", "type": "UnilogModel.MessageParam"
+}, "ID": 16, "Code": "KV", "Name": "\u041a\u0412", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(16)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(17)", "type": "UnilogModel.MessageParam"
+}, "ID": 17, "Code": "IP", "Name": "IP \u0430\u0434\u0440\u0435\u0441", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(17)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(18)", "type": "UnilogModel.MessageParam"
+}, "ID": 18, "Code": "ChainID", "Name": "ID \u0446\u0435\u043f\u043e\u0447\u043a\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(18)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(19)", "type": "UnilogModel.MessageParam"
+}, "ID": 19, "Code": "Xml", "Name": "Xml", "Description": "Xml", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(19)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(20)", "type": "UnilogModel.MessageParam"
+}, "ID": 20, "Code": "InputParams", "Name": "\u0412\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b", "Description": "\u0412\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u0434\u043b\u044f \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u043e\u0433\u043e \u043c\u0435\u0442\u043e\u0434\u0430", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(20)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(21)", "type": "UnilogModel.MessageParam"
+}, "ID": 21, "Code": "Request", "Name": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043a \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u043e\u043c\u0443 \u0441\u0435\u0440\u0432\u0438\u0441\u0443", "Description": "\u0421\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043a \u0432\u043d\u0435\u0448\u043d\u0435\u043c\u0443 \u0441\u0435\u0440\u0432\u0438\u0441\u0443, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0441\u0435\u0440\u0438\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u043e\u0435.", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(21)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(22)", "type": "UnilogModel.MessageParam"
+}, "ID": 22, "Code": "Response", "Name": "\u041e\u0442\u0432\u0435\u0442 \u043e\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u043e\u0433\u043e \u0441\u0435\u0440\u0432\u0438\u0441\u0430", "Description": "\u0421\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u043e\u0442\u0432\u0435\u0442\u0430 \u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e \u0441\u0435\u0440\u0432\u0438\u0441\u0430, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u0441\u0435\u0440\u0438\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u043e\u0435.", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(22)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(23)", "type": "UnilogModel.MessageParam"
+}, "ID": 23, "Code": "Number", "Name": "\u041d\u043e\u043c\u0435\u0440 \u043f\u043e\u043b\u0438\u0441\u0430", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(23)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(24)", "type": "UnilogModel.MessageParam"
+}, "ID": 24, "Code": "ProgramID", "Name": "ID \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(24)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(25)", "type": "UnilogModel.MessageParam"
+}, "ID": 25, "Code": "B2BID", "Name": "ID \u043f\u043e\u043b\u0438\u0441\u0430 \u0432 B2B", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(25)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(26)", "type": "UnilogModel.MessageParam"
+}, "ID": 26, "Code": "Login", "Name": "\u041b\u043e\u0433\u0438\u043d \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f", "Description": "\u041b\u043e\u0433\u0438\u043d \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043f\u0440\u0438 \u0432\u0445\u043e\u0434\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0438 \u0442.\u043f.", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(26)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(27)", "type": "UnilogModel.MessageParam"
+}, "ID": 27, "Code": "eMail", "Name": "eMail \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f", "Description": "\u0410\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(27)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(28)", "type": "UnilogModel.MessageParam"
+}, "ID": 28, "Code": "Command", "Name": "\u0422\u0438\u043f \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u0434\u043b\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432", "Description": "\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440 \u043d\u0430\u0436\u0430\u0442\u0438\u0435 \u043a\u043d\u043e\u043f\u043a\u0438", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(28)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(29)", "type": "UnilogModel.MessageParam"
+}, "ID": 29, "Code": "CurrentDIStatus", "Name": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0441\u0442\u0430\u0442\u0443\u0441 \u0432 DI", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(29)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(30)", "type": "UnilogModel.MessageParam"
+}, "ID": 30, "Code": "StackTrace", "Name": "StackTrace", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(30)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(31)", "type": "UnilogModel.MessageParam"
+}, "ID": 31, "Code": "GUID", "Name": "GUID", "Description": "GUID \u0437\u0430\u043f\u0440\u043e\u0441\u0430", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(31)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(32)", "type": "UnilogModel.MessageParam"
+}, "ID": 32, "Code": "ServiceName", "Name": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u0430/\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u0430", "Description": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u0430 \u0438\u043b\u0438 MVC \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u0430", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(32)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(33)", "type": "UnilogModel.MessageParam"
+}, "ID": 33, "Code": "MethodName", "Name": "\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0435\u0442\u043e\u0434\u0430", "Description": "\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0435\u0442\u043e\u0434\u0430 \u0441\u0435\u0440\u0432\u0438\u0441\u0430 \u0438\u043b\u0438 \u043c\u0435\u0442\u043e\u0434\u0430 MVC \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u0430", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(33)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(34)", "type": "UnilogModel.MessageParam"
+}, "ID": 34, "Code": "TransactionID", "Name": "\u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0438", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(34)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(35)", "type": "UnilogModel.MessageParam"
+}, "ID": 35, "Code": "DocumentID", "Name": "\u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430", "Description": null, "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(35)/MessageParamValue"
+}
+}
+}, {
+"__metadata": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(36)", "type": "UnilogModel.MessageParam"
+}, "ID": 36, "Code": "ErrorDetails", "Name": "\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u043e\u0448\u0438\u0431\u043a\u0438", "Description": "\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u043e\u0448\u0438\u0431\u043a\u0438 (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0442\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0438)", "MessageParamValue": {
+"__deferred": {
+"uri": "http://localhost:45000/UnilogDataService.svc/MessageParam(36)/MessageParamValue"
+}
+}
+}
+]
+}
