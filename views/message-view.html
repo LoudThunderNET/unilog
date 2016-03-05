@@ -1,39 +1,74 @@
-<div class="mesCont">
+﻿<div class="mesCont">
   <div class="mesHeader"> <!-- header -->
     <table cellpadding="0" cellspacing="0" border="0px" style="color:#EEEEEE">
-      <tr>
-        <td rowspan="3" style="width:60px; height:60px;">
-        <td style="width:65px;" class="tdParam">Дата</td>
-        <td style="width:150px;" class="tdValue">01-10-2016</td>
-        <td class="tdParam">Текст</td>
-        <td style="width:350px;" class="tdValue"></td>
-      </tr>
-      <tr>
+        <colgroup>
+            <col width="120px" />
+            <col width="150px" />
+            <col width="50px" />
+            <col width="170px" />
+            <col width="50px" />
+            <col width="100px" />
+            <col width="50px" />
+            <col width="250px" />
+            <col width="50px" />
+        </colgroup>
+      <tr style="height:18px;">
+        <td class="tdParam">Дата</td>
+        <td class="tdValue">{{message.CreationDate.toLocaleString()}}</td>
+        <td class="tdParam">Тип</td>
+        <td class="tdValue" >{{message.MessageType.Name}}</td>
         <td class="tdParam">Среда</td>
-        <td class="tdValue">Test</td>
-        <td class="tdParam">Доп. информация</td>
-        <td class="tdValue"></td>
-      </tr>
-      <tr>
+        <td class="tdValue">{{message.Source.ApplicationHost.Type}}</td>
         <td class="tdParam">Источник</td>
-        <td class="tdValue">33</td>
-        <td class="tdParam">Метод</td>
-        <td class="tdValue"></td>
+        <td class="tdValue">{{message.SourceID}}</td>
+        <td class="tdParam">Хост</td>
+        <td class="tdValue">{{message.Source.ApplicationHost.Description}}</td>
+
       </tr>
+      <tr style="height:18px;">
+        <td class="tdParam">AccountNumber</td>
+        <td class="tdValue">{{message.AccountNumber}}</td>
+        <td class="tdParam">PolicyNumber</td>
+        <td class="tdValue">{{message.PolicyNumber}}</td>
+        <td class="tdParam">PolicyID</td>
+        <td class="tdValue">{{message.PolicyID}}</td>
+        <td class="tdParam">GUID</td>
+        <td class="tdValue">{{message.GUID}}</td>
+        <td class="tdParam">Приложение</td>
+        <td class="tdValue">{{message.Source.Application.Name+':'+message.Source.Application.Description}}</td>
+      </tr>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0px" style="color:#EEEEEE">
+    <colgroup>
+        <col width="50px" />
+        <col width="250px" />
+        <col width="50px" />
+        <col width="250px" />
+        <col width="50px" />
+        <col width="250px" />
+    </colgroup>
+    <tr>
+        <td class="tdParam">Текст</td>
+        <td class="tdValue">{{message.MessageText}}</td>
+        <td class="tdParam">Метод</td>
+        <td class="tdValue">{{message.MethodName}}</td>
+        <td class="tdParam">Сервис</td>
+        <td class="tdValue">{{message.ServiceName}}</td>
+    </tr>
     </table>
   </div>
   <div class="mesBCont">
     <div class="mesPane"> <!-- left pane -->
       <ul class="ulParam">
-        <li><div>AccountNumber</div></li>
-        <li><div>PolicyNumber</div></li>
-        <li><div>Request</div></li>
-        <li><div>Response</div></li>
-        <li><div>XML</div></li>
-        <li><div>InputParam</div></li>
+        <li ng-class="{seleParam:dataItem.Selected}" ng-repeat="dataItem in params track by $index"><div ng-click="ShowParamValue(dataItem)">{{dataItem.ParamName.Code}}</div></li>
       </ul>
     </div>
     <div class="mesBody"> <!-- main pane -->
+        <div ng-repeat="dataItem in params track by $index">
+            <textarea class="txt" ng-if="dataItem.Selected && dataItem.Type == 1">{{::SelectedParam.ValueXML}}</textarea>
+            <textarea class="txt" ng-if="dataItem.Selected && dataItem.Type == 0" >{{::SelectedParam.ValueText}}</textarea>
+        </div>
     </div>
   </div>
+  <img id="wait" style="display:block;" src="images/loading.gif"/>
 </div>

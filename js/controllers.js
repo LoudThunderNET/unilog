@@ -113,7 +113,9 @@ unilogControllers.controller('searchController',
               sizable: true,
               valign: unilogConst.TopAlign,
               halign: unilogConst.LeftAlign,
-              fieldName: 'AdditionalInfo'
+              fieldName: 'AdditionalInfo',
+              cellTemplate: '<div ng-if="!data.isAdditionalInfoMultiline">{{data.AdditionalInfo}}</div>'+
+            '<div ng-if="data.isAdditionalInfoMultiline" ng-repeat="line in data.AdditionalInfoMultiline">{{line}}</div>'
             },
             {
               caption: 'Параметры',
@@ -132,7 +134,7 @@ unilogControllers.controller('searchController',
                             ' <li ng-if="data.ServiceName.length > 0">ServiceName</li>' +
                             ' <li ng-if="data.MethodName.length > 0">MethodName</li>' +
                             ' <li ng-repeat="dataElement in data.ParamValues">' +
-                            '  {{dataElement.ParamName}}' +
+                            '  {{::dataElement.ParamName}}' +
                             ' </li>' +
                             '</ul>'
             },
@@ -153,31 +155,64 @@ unilogControllers.controller('searchController',
                             ' <li ng-if="data.ServiceName.length > 0">{{data.ServiceName}}</li>' +
                             ' <li ng-if="data.MethodName.length > 0">{{data.MethodName}}</li>' +
                             ' <li ng-repeat="dataElement in data.ParamValues">' +
-                            '  {{dataElement.TruncatedValue}}' +
+                            '  {{::dataElement.TruncatedValue}}' +
                             ' </li>' +
                             '</ul>'
             }
       ],
       data: $rootScope.data == undefined ? [] : $rootScope.data
     };
-
+    //
+    if($routeParams.searchParams !== undefined && !angular.isArray($routeParams.searchParams)){
+      var urlParams = $routeParams.searchParams.split('?');
+      if(urlParams.length > 0 ){
+        urlParams.splice(0, 1);
+        var keyValues = urlParams[0].split('&');
+        for(var p=0; p< keyValues.length; p++){
+          var keyValue = keyValues[p].split('=');
+          var param = $routeParams[keyValue[0]];
+          if(param == undefined)
+            $routeParams[keyValue[0]] = keyValue[1];
+          else{ 
+            if(!angular.isArray(param))
+            {
+              var aux = $routeParams[keyValue[0]];
+              $routeParams[keyValue[0]] = [];
+              $routeParams[keyValue[0]].push(aux);
+            }
+            $routeParams[keyValue[0]].push(keyValue[1]);
+          }
+        }
+      }
+    }
     // сохраняем параметры запроса
     $scope.queryParams = $routeParams;
     // загружаем название параметров
-    $http.get(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/MessageParam?$format=json').success(function (data) {
+    serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/MessageParam?$format=json')
+      .then(function (response) {
       //      $scope.paramNames = data.d;
-      $rootScope.paramNames = data.d;
+      $rootScope.paramNames = response.Data.d;
       // параметры
       if ($rootScope.paramNames != undefined)
         $rootScope.paramNames.forEach(function (item, i, arr) {
           var checked = true;
           var param = $scope.queryParams[item.Code];
-          if (param == undefined) {
-            param = $scope.queryParams['~' + item.Code];
-            checked = false;
-          }
-          if (param != undefined)
+          if(param !== undefined && angular.isArray(param)) // это на случай param1=val1&param1=val2&param1=val3
+            param.forEach(function(e, i){
+              $scope.params.push({ enabled: true, paramName: item, paramValue: e, paramCaption: item.Name });
+            })
+          else if (param !== undefined)
             $scope.params.push({ enabled: checked, paramName: item, paramValue: param, paramCaption: item.Name });
+
+          param = $scope.queryParams['~' + item.Code];
+
+          if (param !== undefined && angular.isArray(param)) // это на случай ~param1=val1&~param1=val2&~param1=val3
+            param.forEach(function(e, i){
+              $scope.params.push({ enabled: false, paramName: item, paramValue: e, paramCaption: item.Name });
+            })
+          else if(param !== undefined)
+            $scope.params.push({ enabled: false, paramName: item, paramValue: param, paramCaption: item.Name });
+          
         });
     });
 
@@ -264,7 +299,10 @@ unilogControllers.controller('searchController',
                 }
               });
               if ($scope.source.sources[unilogConst.Environment].values.length > 0)
+              {
                 $scope.source.sources[unilogConst.Environment].selected = $scope.source.sources[unilogConst.Environment].values[0];
+                $scope.FormURL();
+              }
             }
           }
         }
@@ -448,6 +486,7 @@ unilogControllers.controller('searchController',
       else {
         urlParts.push('sd=' + Math.IntToStrNN($scope.start_date.getDate(), 2) + '.' + Math.IntToStrNN($scope.start_date.getMonth() + 1, 2) + '.' + Math.IntToStrNN($scope.start_date.getFullYear(), 2).substr(2, 2) + '_' + Math.IntToStrNN($scope.start_date.getHours(), 2) + '.' + Math.IntToStrNN($scope.start_date.getMinutes(), 2));
         urlParts.push('ed=' + Math.IntToStrNN($scope.end_date.getDate(), 2) + '.' + Math.IntToStrNN($scope.end_date.getMonth() + 1, 2) + '.' + Math.IntToStrNN($scope.end_date.getFullYear(), 2).substr(2, 2) + '_' + Math.IntToStrNN($scope.end_date.getHours(), 2) + '.' + Math.IntToStrNN($scope.end_date.getMinutes(), 2));
+        urlParts.push('ad=0');
       }
       // источник данных
       urlParts.push('sid=' + $scope.source.sources[0].selected.ID);
@@ -481,21 +520,35 @@ unilogControllers.controller('searchController',
         urlParts.push('at=' + $scope.additionalInfo);
       if ($scope.methodName.length > 0)
         urlParts.push('mn=' + $scope.methodName);
-
-      $location.url('search?' + urlParts.join('&'));
+      //$rootScope.reload = false;
+      //window.history.pushState({},'','#/search?' + urlParts.join('&'));
+      $location.url('search?' + urlParts.join('&'), false);
     };
+    
     // формирует объект запроса
     $scope.PrepareRequest = function (messageIdTo) {
+      // это надо для режима Продолжить. Так сервис поиска работает
       if (messageIdTo !== undefined)
         $scope.request.MessageIdTo = messageIdTo;
       else
-        $scope.request.MessageIdTo = null;                 // 
-      $scope.request.OperationId = Math.uuid();
-      $scope.request.CreationDateFrom = $scope.start_date; // начальная дата
-      $scope.request.CreationDateTo = $scope.end_date;    // конечная дата
+        $scope.request.MessageIdTo = null;
+      
+      $scope.request.OperationId = Math.uuid(); // на каждый запрос нужен новый GUID
+      // начальная дата
+      if($scope.dayOrInterval == unilogConst.Interval){
+        $scope.request.CreationDateFrom = $scope.start_date.getCorrectedDateByTimeZone(); //Странно, правда ? Это потому что javascript хранит дату в UTC и также её сериализует и вместо 2016-01-02T12:13:45 получим 2016-01-02T09:13:45
+        $scope.request.CreationDateTo = $scope.end_date.getCorrectedDateByTimeZone();    // конечная дата
+      }
+      else{
+        var year = $scope.day.getFullYear();
+        var month = $scope.day.getMonth();
+        var day = $scope.day.getDate();
+        $scope.request.CreationDateFrom = new Date(year, month, day, 0,0,0).getCorrectedDateByTimeZone();
+        $scope.request.CreationDateTo = new Date(year, month, day+1,0,0,0).getCorrectedDateByTimeZone();
+      }
       // формируем массив ИД источников
       $scope.request.SourceIdValues.splice(0, $scope.request.SourceIdValues.length);              // очищаем массив
-      // надо пройтись по хостам приложений и выбрать все записи у которых тип среды = выбранной стреде,
+      // надо пройтись по хостам приложений и выбрать все записи у которых тип среды = выбранной среде,
       var hosts = $scope.appHosts.filter(function (app, appIndex) {
         return $scope.source.sources[0].selected.Type.length == 0 || $scope.source.sources[0].selected.Type == app.Type;
       });
@@ -503,6 +556,10 @@ unilogControllers.controller('searchController',
       // а приложения = выбранное приложение
       // если прилождение не выбрано. то надо выбрать все записи ИдХоста у которых входит в выбранные ранее список
       var application = $scope.source.sources[1].selected;
+      if($scope.Sources == undefined || !angular.isArray($scope.Sources)){
+        alert('Справочник источников еще не загружен. Дождитесь загрузки и повторите попытку');
+        return false;
+      }
       $scope.Sources.forEach(function (src, srcIndex) {
         hosts.forEach(function (h, hIndex) {
           if (src.ApplicationHostID == h.ID &&
@@ -519,8 +576,6 @@ unilogControllers.controller('searchController',
         if (mesType.Enabled)
           $scope.request.MessageTypeValues.push(mesType.ID);
       });
-      // тип операции в предикате для параметров
-      $scope.request.ParamValueExpressionMode = unilogConst.AndOperation; // TODO:привязать к радиобатону "Операция"
 
       // messageText
       $scope.request.MesageTextValues.splice(0, $scope.request.MesageTextValues.length);         //clear array
@@ -540,6 +595,7 @@ unilogControllers.controller('searchController',
             StringValues: $scope.parseStringIntoArray(param.paramValue)
           });
       });
+      return true;
     };
     $scope.TotalRecords = 0;
     $scope.LastRecords = 0;
@@ -556,23 +612,23 @@ unilogControllers.controller('searchController',
     };
     // обработчик нажатия кнопки для "Поиск" и "Продолжить" с параметром какая кнопка нажата
     $scope.cmdClick = function (btn) {
-      // вызвать $http или сервис
-      // вызвать $http или сервис
       // 2016-02-15T22:29:29.3795156+03:00
-      // start date
-      $scope.StartRequest();
-      if (btn == 'start') // новый запрос, формируем объект запроса по-новой
-        $scope.PrepareRequest();
+      $scope.StartRequest();  // показывает "колесо фортуны"
+      var prepareRequestResult = false;
+      if (btn == 'start'){    // новый запрос, формируем объект запроса по-новой
+        $scope.TotalRecords = 0;  // сбросим общий счетчик записей
+        prepareRequestResult = $scope.PrepareRequest();
+      }
       else
-        $scope.PrepareRequest($scope.request.MessageIdTo - 1);
+        prepareRequestResult = $scope.PrepareRequest($scope.request.MessageIdTo - 1);
+      if(!prepareRequestResult)
+          return;
       // запрос к сервис сообщений
 
       $scope.loadingPromise = $http({
-        //url: environment.SearchServiceUrlPrefix + 'UnilogSearchService.svc/web/SearchMessages',
-        url: 'data/searchResult.json',
-        //method: 'POST',
-        method: 'GET',
-        //data: $scope.request
+        url: environment.SearchServiceUrlPrefix + 'UnilogSearchService.svc/web/SearchMessages',
+        method: 'POST',
+        data: $scope.request
       })
           .then(function (response) {    // when seccess
             $scope.EndRequest();
@@ -589,8 +645,17 @@ unilogControllers.controller('searchController',
               
 //              $scope.request.MessageIdFrom = response.data.Messages[0].Id;
               response.data.Messages.reverse();
-              $scope.request.MessageIdTo = response.data.Messages[0].Id;
+              if(response.data.Messages.length > 0)
+                $scope.request.MessageIdTo = response.data.Messages[0].Id;
               response.data.Messages.forEach(function (mes, mesIndex) {
+                // провереяем является ли AdditionInfo многострочным
+                mes.isAdditionalInfoMultiline = false;
+                mes.AdditionalInfoMultiline = [];
+                if(mes.AdditionalInfo !== null && mes.AdditionalInfo.length >0  && mes.AdditionalInfo.indexOf('\n') >0)
+                {
+                  mes.isAdditionalInfoMultiline = true;
+                  mes.AdditionalInfoMultiline = mes.AdditionalInfo.split('\n')
+                }
                 mes.ParamValues.forEach(function (p, pIndex) {
                   $scope.request.MessageIdTo = Math.min($scope.request.MessageIdTo, mes.Id);
                   var foundedParam = $rootScope.paramNames.find(function (param, paramIndex) {
@@ -638,7 +703,7 @@ unilogControllers.controller('searchController',
      if ($rootScope.cache == undefined)
        $rootScope.cache = $cacheFactory('dic');
      var batch1 = [];
-     var promise1 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $routeParams.messageId + ')?$format=json');
+     var promise1 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $routeParams.messageId + ')?$format=json&$expand=MessageParamValue,MessageType,Source/Application,Source/ApplicationHost');
      var promise2 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $routeParams.messageId + ')/MessageParamValue?$format=json');
      var promise3 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/MessageParam?$format=json');
      batch1.push(promise1);
@@ -648,47 +713,61 @@ unilogControllers.controller('searchController',
        var msgResponse = results1[0].Data.d;
        var msgParamResponse = results1[1].Data.d;
        var paramResp = results1[2].Data.d;
-
+       paramResp.push({
+                        ID: -1, 
+                        Code: "AdditionalInfo", 
+                        Name: "Доп. информация", 
+                        Description: null
+       });
        $rootScope.paramNames = paramResp;
        $scope.message = msgResponse;  // сообщение
        // проебразуем дату из \Date(654618761716)\ в богоугодный вид
-       $scope.message.CreationDate = new Date($scope.message.CreationDate.match(/\d+/)[0] * 1)
-       $scope.params = msgParamResponse;  // параметры сообщения
+       if(typeof $scope.message.CreationDate == 'string'){
+         var localTime = $scope.message.CreationDate.match(/\d+/)[0] * 1;
+         var offset = (new Date()).getTimezoneOffset()*60000;
+         $scope.message.CreationDate = new Date(localTime+offset);
+       } // возможно придется доп. проверять с часом ли поясом приходит дата.
+       $scope.params = [];
+       $scope.params.push({
+          ID        : -1, 
+          MessageID : 0, 
+          ParamID   : -1, 
+          ValueText : $scope.message.AdditionalInfo, 
+          ValueXML  : null,
+       });
+       msgParamResponse.forEach(function(e){ $scope.params.push(e);});
+       //var mesID = parseInt($routeParams.messageId);
 
-       var p1 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Source(' + msgResponse.SourceID + ')/ApplicationHost?$format=json');
-       var p2 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Source(' + msgResponse.SourceID + ')/Application?$format=json');
-       var batch2 = [];
-       batch2.push(p1);
-       batch2.push(p2);
-       $q.all(batch2).then(function (results2) {
-         $scope.ApplicationHost = results2[0].Data.d;
-         $scope.Application = results2[1].Data.d;
-         var mesID = parseInt($routeParams.messageId);
-
-         // сопоставляем код парамера его имени
-         $scope.params.forEach(function (dataItem, dataItemIndex) {
-           var foundParamName = $rootScope.paramNames.find(function (param, paramIndex) {
-             return param.ID == dataItem.ParamID;
-           });
-           // сопоставление есть
-           if (foundParamName !== undefined) {
-             dataItem.ParamName = foundParamName;
-             // определяем тип параметра
-             dataItem.Type = dataItem.Type = ((dataItem.ValueText == null || (dataItem.ValueText !== null && dataItem.ValueText.length == 0)) && dataItem.ValueXML.length > 0) ? 1 : 0; // текст или XML
-
-             if (dataItemIndex == 0) {
-               dataItem.Selected = true; // первй парметра выделяем
-               $scope.SelectedParam = dataItem;
-             }
-           }
+       // сопоставляем код парамера его имени
+       $scope.params.forEach(function (dataItem, dataItemIndex) {
+         var foundParamName = $rootScope.paramNames.find(function (param, paramIndex) {
+           return param.ID == dataItem.ParamID;
          });
-       },
-      function (sourceResponse) {
-        alert('Неудолось получить данные:' + sourceResponse);
-      });
+         // сопоставление есть
+         if (foundParamName !== undefined) {
+           dataItem.ParamName = foundParamName;
+           // определяем тип параметра
+           if(dataItem.ValueText == null)
+              dataItem.ValueText = '';
+           if(dataItem.ValueXML == null)
+              dataItem.ValueXML = '';
+            
+           dataItem.Type = dataItem.Type = (dataItem.ValueText.length == 0 && dataItem.ValueXML.length > 0) ? 1 : 0; // текст или XML
+           if(dataItem.Type == 1 && dataItem.ValueXML.indexOf('\n') == -1)
+             dataItem.ValueXML = vkbeautify.xml(dataItem.ValueXML,'4');
+
+           if (dataItemIndex == 0) {
+             dataItem.Selected = true; // первй парметра выделяем
+             $scope.SelectedParam = dataItem;
+           }
+        }
+       });
+        var img = document.getElementById('wait');
+        if (img !== undefined)
+          img.style.display = 'none';
      },
     function (result) {
-      alert('Неудолось получить данные:' + result);
+      alert('Неудалось получить данные:' + result);
     });
 
      $scope.ShowParamValue = function (param) {
@@ -699,8 +778,5 @@ unilogControllers.controller('searchController',
        param.Selected = true;
        $scope.SelectedParam = param;
      };
-     var img = document.getElementById('wait');
-     if (img !== undefined)
-       img.style.display = 'none';
    }
  } ]);

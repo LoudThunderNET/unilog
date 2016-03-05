@@ -1,39 +1,33 @@
-<table cellpadding="0" cellspacing="0" border="0">
-<!-- заголовок-->
-  <tr>
-    <td id="fct{{pcol.index}}" class="htcell" ng-repeat="pcol in pinnedColumns" style="width:{{pcol.width}}px;display: block;">{{pcol.caption}}</td>
-    <td>
-      <div style="width: 100%;overflow: hidden;">
-        <table id="{{controlId}}theader" cellpadding="0" cellspacing="0" border="0">
-          <tr>
-            <td id="thr{{$index}}" class="htcell" ng-repeat="gcol in gridColumnsHeaders" style="width:{{gcol.width}}px">{{gcol.caption}}</td>
-          </tr>
-        </table>
-      </div>
-    </td>
-  </tr>
-<!-- тело -->
-  <tr>
-    <td ng-repeat="pcol in pinnedColumns" style="width:{{pcol.width}}px">
-      <table id="fct{{$index}}" class="data_table" style="width:100%; margin-top:0px;z-index: -1;" cellpadding="0" cellspacing="0" border="0">
-        <tr ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
-          <td ng-class="{tcell:true, cell_hcenter: (pcol.halign=='center'),cell_hleft: (pcol.halign=='left'), cell_vtop: (pcol.valign=='top'), cell_hrigth: (pcol.halign=='right'), cell_vmid: (pcol.valign=='middle'), cell_vbot: (pcol.valign=='bottom')}" 
-             style="height:{{pcol.cells[$index].rowHeight}}px;">
-            <cell-template column="pcol" data="dataRow"></cell-template>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td atyle="overflow:scroll;">
-        <table id="{{controlId}}table" cellpadding="0" cellspacing="0" border="0" class="data_table" >
-          <tr id="{{controlId}}row{{$index}}" ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
-            <td ng-class="{tcell:true, cell_hcenter: (colHdr.halign=='center'),cell_hleft: (colHdr.halign=='left'), cell_vtop: (colHdr.valign=='top'), cell_hrigth: (colHdr.halign=='right'), cell_vmid: (colHdr.valign=='middle'), cell_vbot: (colHdr.valign=='bottom')}" 
-                style="width:{{colHdr.width}}px" 
-                ng-repeat="colHdr in gridColumnsHeaders">
-                <cell-template column="colHdr" data="dataRow"></cell-template>
-            </td> 
-          </tr>
-        </table>
-    </td>
-  </tr>
-</table>
+<div id="{{::controlId}}frezzed{{::$index}}" class="frezzed" style="width:{{::pCol.width+10}}px" ng-repeat="pCol in pinnedColumns">
+  <div id="phRow{{::$index}}" class="hcell" style="width:{{::pCol.width}}px">
+    {{pCol.caption}}
+    <div id="fhr{{::$index}}" style="margin-left:{{pCol.width+3}}px;" class="rdiv" ng-if="pCol.sizable" style="left:{{::pCol.left}}px;"></div>
+  </div>
+  <table id="fct{{::$index}}" class="data_table fbody_container" cellpadding="0" cellspacing="0" border="0">
+    <tr ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
+      <td ng-class="{tcell:true, cell_hcenter: (pCol.halign=='center'),cell_hleft: (pCol.halign=='left'), cell_vtop: (pCol.valign=='top'), cell_hrigth: (pCol.halign=='right'), cell_vmid: (pCol.valign=='middle'), cell_vbot: (pCol.valign=='bottom')}" >
+        <cell-template column="pCol" data="dataRow"></cell-template>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="{{::controlId}}tab_container" class="tab_container">
+  <table id="{{::controlId}}theader" class="header data_table" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td id="hRow{{::$index}}" class="hcell" style="width:{{::colH.width}}px" ng-repeat="colH in gridColumnsHeaders">{{::colH.caption}}
+        <div id="thr{{::$index}}" class="rdiv" style="margin-left:{{colH.width+3}}px;" ng-if="colH.sizable"></div>
+      </td>
+    </tr>
+  </table>
+  <div id="{{::controlId}}tbody_container" class="tbody_container">
+    <table id="{{::controlId}}table" cellpadding="0" cellspacing="0" border="0" class="data_table" style="margin-top: 1px;" >
+      <tr id="{{::controlId}}row{{::$index}}" ng-class="{odd:$odd}" ng-repeat="dataRow in config.data track by $index">
+        <td ng-class="{tcell:true, cell_hcenter: (colHdr.halign=='center'),cell_hleft: (colHdr.halign=='left'), cell_vtop: (colHdr.valign=='top'), cell_hrigth: (colHdr.halign=='right'), cell_vmid: (colHdr.valign=='middle'), cell_vbot: (colHdr.valign=='bottom')}" 
+            style="width:{{::colHdr.width}}px" 
+            ng-repeat="colHdr in gridColumnsHeaders">
+            <cell-template column="colHdr" data="dataRow"></cell-template>
+        </td> 
+      </tr>
+    </table>
+  </div>
+</div>

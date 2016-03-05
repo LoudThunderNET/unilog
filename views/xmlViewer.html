@@ -1,34 +1,41 @@
-<table cellpadding="0" cellspacing="0" style="width:2500px;">
-  <tr class="fnt" ng-repeat="line in Lines track by $index" ng-show="line.RowVisible">
+<div style="width:2535px;">
+<table cellpadding="0" cellspacing="0" style="width:35px;float:left;">
+  <colgroup>
+    <col width="30px"/>
+    <col width="18px"/>
+  </colgroup>
+  <tr class="rowN fnt ht" ng-repeat="line in Lines track by $index" ng-show="line.RowVisible">
     <td class="rowNum">{{line.StartRownumber}}</td>
-    <td ng-if="line.HasChildren && !line.LeafClosed"  class="rowPNode pnt" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
-    <td ng-if="line.HasChildren && line.LeafClosed"  class="rowMNode pnt" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
+    <td ng-if="line.HasChildren && !line.LeafClosed"  class="rowPNode pnt ht" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
+    <td ng-if="line.HasChildren && line.LeafClosed"  class="rowMNode pnt ht" ng-click="onNodeClick(line, Lines)">&nbsp;</td>
     <td ng-if="!line.HasChildren" class="rowNNode"></td>
-    <td class="tRow">
-      <div id="row{{line.StartRownumber}}" class="xmlRow" ng-show="line.RowVisible">
-        <span>
-          <div class="elDiv"  ng-bind-html="line.Tab"></div>
-          <div class="elDiv" ng-if="line.StartDomNode !== undefined">
-            <div class="ang">&lt;</div><div class="el">{{line.StartDomNode.localName}}</div>
-            <div class="attDiv" ng-repeat="attr in line.StartDomNode.attributes">
-              <div class="spAtr">{{attr.nodeName}}</div><div class="val">=</div><div class="quo">"</div><div class="val">{{attr.nodeValue}}</div><div class="quo">"</div>
-            </div>
-            <div class="ang">&gt;</div>
-            <div id="endRow{{line.StartRownumber}}" ng-class="{endRowH:!line.LeafClosed, endRowS:line.LeafClosed}">
-              <div class="elDiv" ng-if="line.HasChildren" >...</div>
-              <div class="elDiv" ng-if="line.HasChildren">
-                <div class="ang">&lt;/</div><div class="el">{{line.StartDomNode.localName}}</div><div class="ang">&gt;</div>
-              </div>
-            </div>
-          </div>
-          <div class="elDiv" ng-if="line.EndDomNode !== undefined && line.StartDomNode !== undefined">
-            {{line.EndDomNode.textContent}}
-          </div>
-          <div class="elDiv" ng-if="line.EndDomNode !== undefined">
-            <div class="ang">&lt;/</div><div class="el">{{line.EndDomNode.localName}}</div><div class="ang">&gt;</div>
-          </div>
-        </span>
-      </div>
-    </td>
   </tr>
 </table>
+
+<div class="xmlCont" style="width:2500px; background-color: white;">
+  <div style="width:100%;" class="rowN fnt ht" ng-repeat="line in Lines track by $index" ng-show="line.RowVisible">
+<!--    <td class="xmlCont"> -->
+      <div id="row{{line.StartRownumber}}" class="xmlRow" ng-show="line.RowVisible">
+          <span style="float:left;"  ng-bind-html="line.Tab"></span>
+          <span class="elDiv ht" ng-if="line.StartDomNode !== undefined">
+            <span class="ang">&lt;</span>
+            <span class="el">{{line.StartDomNode.localName}}</span>
+            <span class="attDiv ht" ng-repeat="attr in line.StartDomNode.attributes">
+              <span class="spAtr">&nbsp;{{attr.nodeName}}</span><span class="val">=</span><span class="quo">"</span><span class="val">{{attr.nodeValue}}</span><span class="quo">"</span>
+            </span>
+            <span class="ang">&gt;</span>
+            <span id="endRow{{line.StartRownumber}}" ng-class="{endRowH:!line.LeafClosed, endRowS:line.LeafClosed}">
+              <span class="elDiv ht" ng-if="line.HasChildren" >...</span>
+              <span class="elDiv ht" ng-if="line.HasChildren">
+                <span class="ang">&lt;/</span><span class="el">{{line.StartDomNode.localName}}</span><span class="ang">&gt;</span>
+              </span>
+            </span>
+          </span>
+          <span class="elDiv" ng-if="line.EndDomNode !== undefined && line.StartDomNode !== undefined">{{line.EndDomNode.textContent}}</span>
+          <span class="elDiv ht" ng-if="line.EndDomNode !== undefined">
+            <span class="ang">&lt;/</span><span class="el">{{line.EndDomNode.localName}}</span><span class="ang">&gt;</span>
+          </span>
+      </div>
+  </div>
+</div>
+</div>

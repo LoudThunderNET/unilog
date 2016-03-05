@@ -1,3 +1,4 @@
+// тут всякие вспомогательные функции и заплатки к javascript "выравнивающие" функционал под Chrome 48
 (function(){
   try{
     if(!Array.prototype.hasOwnProperty('find'))
@@ -26,6 +27,14 @@
                                                       return item
                                                     }
       });
+    // функция для коррекции javascript даты для учета локального часового пояса при сериализации в JSON
+    Object.defineProperty(Date.prototype, 'getCorrectedDateByTimeZone', {
+      enumerable: false,
+      writable  : false,
+      value     : function(){
+        return new Date(this.getTime()-(this.getTimezoneOffset()*60000));
+      }
+    });
   }
   catch(e){
     console.log(e);

@@ -62,11 +62,18 @@ var unilogApp = angular.module('unilogApp', [
 
       return out;
     }
-  });
-  /*.run(function ($rootScope) {
-    $rootScope.$on('$locationChangeStart', function (event, arg) {
-      if ($rootScope.needRelocate !== undefined)
-        event.preventDefault();
-      $rootScope.needRelocate = false;
-    });
-  });*/
+  })
+  .run(['$route', '$rootScope', '$location', function ($route, $rootScope, $location) {
+    // http://joelsaupe.com/programming/angularjs-change-path-without-reloading/
+    var original = $location.url;
+    $location.url = function (url, reload) {
+        if (reload !== undefined &&  reload === false) {
+            var lastRoute = $route.current;
+            var un = $rootScope.$on('$locationChangeSuccess', function () {
+                $route.current = lastRoute;
+                un();
+            });
+        }
+        return original.apply($location, [url]);
+    };
+}]);

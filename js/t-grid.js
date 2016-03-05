@@ -10,7 +10,7 @@
       // ********************************************
       $scope.InitializePinnedColumns = function (initialIndex) {
         $scope.pinnedColumns.forEach(function (pCol, pColindex) {
-
+          var table = document.getElementById('fct'+pCol);
           if (pCol.cells == undefined)
             pCol.cells = [];
           var delta = $scope.config.data.length - pCol.cells.length;
@@ -28,6 +28,7 @@
       $scope.bindingEvents = function () {
         var tbodycontainer = document.getElementById($scope.controlId + "tbody_container");
         $scope.prevScrollLeft = 0;
+        $scope.sourceScrolling = 0;
         // bind scroll event handler to the tbodycontainer
         angular.element(tbodycontainer).on('scroll', function (evt) {
           var deltaX = Math.round(evt.currentTarget.scrollLeft);
@@ -36,12 +37,6 @@
             $scope.pinnedColumns[i].html.style.marginTop = -1 * deltaY + "px";
 
           $scope.theader.style.marginLeft = -1 * deltaX + 'px';
-          $scope.gridColumnsHeaders.forEach(function (gchCol, gchIndex) {
-            if (gchCol.sizable) {
-              gchCol.html.style.left = $scope.css(gchCol.html, "left") + ($scope.prevScrollLeft - deltaX) + "px";
-              gchCol.left += $scope.prevScrollLeft - deltaX;
-            }
-          });
           $scope.prevScrollLeft = deltaX;
         });
 
@@ -51,7 +46,7 @@
         var frezzedHeader = {};
         var pinnedColIndex = 0;
         var unPinnedColIndex = 0;
-        /*
+        
         $scope.config.columnsDefinition.forEach(function (col, colIndex) {
           if (col.sizable) {
             var rdiv = {};
@@ -67,77 +62,74 @@
               e.preventDefault();
               e.stopPropagation();
               $scope.StartClientX = e.clientX;
+              $scope.EndClientX = e.clientX;
               $scope.rDiv = e.target;
-              $scope.oldRDivHeight = $scope.css(e.target, "height");
-              $scope.oldRDivLeft = $scope.css(e.target, "left");
-              $scope.isPinnedColumn = e.target.id.substr(0, 3) == "fhr";
-              $scope.resizingColumnIndex = parseInt(e.target.id.substr(3, e.target.id.length));
-
-              var main_container;
-              if ($scope.isPinnedColumn) {
-                main_container = e.target.parentNode.parentNode;
-                $scope.masterIndex = $scope.pinnedColumns[$scope.resizingColumnIndex].index;
-              }
-              else {
-                main_container = e.target.parentNode.parentNode.parentNode;
-                $scope.masterIndex = $scope.gridColumnsHeaders[$scope.resizingColumnIndex].index;
-              }
-              e.target.style.height = $scope.css(main_container, "height") + "px";
-
-
               aHeader = angular.element(document.body);
               // bind mousemove event handler
               aHeader.on('mousemove touchmove', function (mouseEvent) {
-                $scope.rDiv.style.left = parseInt($scope.rDiv.style.left.substr(0, $scope.rDiv.style.left.length - 2)) + (mouseEvent.clientX - $scope.StartClientX) + "px";
-                $scope.StartClientX = mouseEvent.clientX;
-                //console.log(mouseEvent.clientX + ":" + $scope.rDiv.style.left);
-                //console.log(mouseEvent.movementX);
+                $scope.rDiv.style.marginLeft = parseInt($scope.rDiv.style.marginLeft.substr(0, $scope.rDiv.style.marginLeft.length - 2)) + (mouseEvent.clientX - $scope.EndClientX) + "px";
+                $scope.EndClientX = mouseEvent.clientX;
               });
 
               aHeader.on('mouseup touchend', function (e) {
                 aHeader.off('mousemove touchmove');
                 aHeader.off('mouseup touchend');
                 aHeader.off('mousedown touchstart');
-
-                $scope.rDiv.style.height = $scope.oldRDivHeight + "px";
-
-                var widthDelta = $scope.oldRDivLeft - $scope.css($scope.rDiv, "left");
-                var newWidth = $scope.config.columnsDefinition[$scope.masterIndex].width - widthDelta;
-
-                var table = $scope.isPinnedColumn ?
-                              document.getElementById("fct" + $scope.resizingColumnIndex) :
-                              document.getElementById($scope.controlId + "table");
-                table.style.width = $scope.css(table, "width") - widthDelta + "px";
-                var tableCells = table
-                                  .children[0] // tbody
-                                  .children[0]; // tr
-                if (tableCells !== undefined)
-                  tableCells.children[$scope.resizingColumnIndex].style.width = newWidth + "px";
-                $scope.config.columnsDefinition[$scope.masterIndex].width = newWidth;
-
-                if ($scope.isPinnedColumn) {
-                  $scope.pinnedColumns.forEach(function (pCol, pColIndex) {
-                    if (pColIndex >= $scope.resizingColumnIndex)
-                      pCol.left -= widthDelta;
-                  });
-                  $scope.resizingColumnIndex = -1;
+                var newMarginLeft = parseInt($scope.rDiv.style.marginLeft.substr(0, $scope.rDiv.style.marginLeft.length - 2));
+                var delta = $scope.EndClientX - $scope.StartClientX;
+                // ширина ячейки таблицы заголовка
+                $scope.rDiv.parentElement.style.width = newMarginLeft - 3  + "px";
+                // устанавливаем ширину столбца таблицы
+                var tableElement = $scope.rDiv.parentElement // td
+                                                .parentElement // tr
+                                                  .parentElement // tbody
+                                                    .parentElement; //table 
+                var tableElementWidth = parseInt(tableElement.style.width.substr(0, tableElement.style.width.length - 2));
+                tableElement.style.width = tableElementWidth + delta + 'px';
+                var prefix = $scope.rDiv.attributes['id'].nodeValue.substr(0,3);
+                var index = parseInt($scope.rDiv.attributes['id'].nodeValue.substr(3,$scope.rDiv.attributes['id'].nodeValue.length-3));
+                // если колонка не фиксированная, то меняем её и таблицу
+                if(prefix == 'thr'){
+                  $scope.gridColumnsHeaders[index].width = $scope.gridColumnsHeaders[index].width + delta;
+                  // устанавливаем ширину таблицы заголовка, но сначала меняем ширину таблицы
+                  var tableElement = document.getElementById($scope.controlId+'table');
+                  var tableElementWidth = parseInt(tableElement.style.width.substr(0, tableElement.style.width.length - 2));
+                  tableElement.style.width = tableElementWidth + delta + 'px';
+                  if(tableElement.children[0].children.length > 0){
+                    // а теперь ширину колонки
+                    var tdElement = tableElement.children[0] // tbody
+                                                  .children[0] // tr
+                                                    .children[index]; // td
+                    var tdElementWidth = parseInt(tdElement.style.width.substr(0, tdElement.style.width.length - 2));
+                    tdElement.style.width = tdElementWidth + delta + 'px';
+                    $scope.CalculateRowsHeight();
+                  }
                 }
-                $scope.gridColumnsHeaders.forEach(function (gchCol, gchIndex) {
-                  if (gchIndex >= $scope.resizingColumnIndex)
-                    gchCol.left -= widthDelta;
-                });
-                var w = $scope.css($scope.rDiv.parentElement, "width");
-                $scope.rDiv.parentElement.style.width = w - widthDelta + 'px';
-                $scope.CalculateRowsHeight();
-                $scope.$apply();
-                //$scope.setSize()
+                else{ // фиксированная колонка
+                  var frezzDiv = document.getElementById($scope.controlId+'frezzed'+index);
+                  var frezzDivWidth = parseInt(frezzDiv.style.width.substr(0, frezzDiv.style.width.length - 2));
+                  frezzDiv.style.width = frezzDivWidth + delta + 'px';
+                  $scope.pinnedColumns[index].width = $scope.pinnedColumns[index].width + delta;
+                  // уменьшаем ширину элемента tbody_container
+                  var tbody_container = document.getElementById($scope.controlId+'tbody_container');
+                  var tbody_containerWidth = parseInt(tbody_container.style.width.substr(0, tbody_container.style.width.length - 2));
+                  tbody_container.style.width = tbody_containerWidth - delta + 'px';
+                  // устанавливаем ширины таблицы с ячеками данных фиксированной таблицы
+                  var tableElement = frezzDiv.children[1];
+                  // меняем ширины у самих ячеек данных фиксированной таблицы 
+                  if(tableElement.children[0].children.length > 0){
+                    var tdElement = tableElement.children[0].children[0].children[0];
+                    var tdElementWidth = parseInt(tdElement.style.width.substr(0, tdElement.style.width.length - 2));
+                    tdElement.style.width = tdElementWidth + delta + 'px';
+                  }
+                }
               });
               return false;
             });
           }
           if (col.pinned) pinnedColIndex++;
           else unPinnedColIndex++;
-        });*/
+        });
       };
 
       //*********************************************
@@ -161,22 +153,41 @@
       };
 
       //*******************************************************************
-      //* вычисляет и устанавливает ширину {{controlId}}theader
+      //* вычисляет и устанавливает ширину и высоту элмента tbodycontainer 
       //*******************************************************************
-      $scope.SetHeaderSize = function () {
-        var width = 0;
-        $scope.gridColumnsHeaders.forEach(function(col, colIndex){
-          var tdStyle = getComputedStyle(document.getElementById("thr"+colIndex));
-          width += (Math.round(parseFloat(tdStyle.width.substr(0, tdStyle.width.length - 2)))
-                          + Math.round(parseFloat(tdStyle.borderLeftWidth.substr(0, tdStyle.borderLeftWidth.length - 2)))
-                          + Math.round(parseFloat(tdStyle.borderRightWidth.substr(0, tdStyle.borderRightWidth.length - 2)))
-                          + Math.round(parseFloat(tdStyle.paddingLeft.substr(0, tdStyle.paddingLeft.length - 2)))
-                          + Math.round(parseFloat(tdStyle.paddingRight.substr(0, tdStyle.paddingRight.length - 2))));
+      $scope.setSize = function () {
+        var tbodycontainer = document.getElementById($scope.controlId + "tbody_container");
+        // вычисляем суммарную ширину "замороженных" колонок
+        var pinnedWidth = 0;
+        // проходимся по "замороженным" колонкам
+        $scope.pinnedColumns.forEach(function (pCol, pColIndex) {
+          pCol.html = document.getElementById("fct" + pColIndex);    // сохраняем ссылку на контейрен "замороденного"столбца для изменения его ширины в будущем
+          pinnedWidth = +$scope.css(pCol.html.parentNode, "width");
         });
-        // получаем родительский элемент, который содержит нашу таблицу, theader и theader
+        // проходимся по заголовку таблицы
+        var headerWidth = 0;
+        $scope.gridColumnsHeaders.forEach(function (gchCol, gchIndex) {
+          gchCol.html = document.getElementById("hRow" + gchIndex);  // сохраняем ссылку на контейрен "замороденного"столбца для изменения его ширины в будущем
+          var styleElement = getComputedStyle(gchCol.html);
+          headerWidth += (Math.round(parseFloat(styleElement.width.substr(0, styleElement.width.length - 2)))
+                          + Math.round(parseFloat(styleElement.borderLeftWidth.substr(0, styleElement.borderLeftWidth.length - 2)))
+                          + Math.round(parseFloat(styleElement.borderRightWidth.substr(0, styleElement.borderRightWidth.length - 2)))
+                          + Math.round(parseFloat(styleElement.paddingLeft.substr(0, styleElement.paddingLeft.length - 2)))
+                          + Math.round(parseFloat(styleElement.paddingRight.substr(0, styleElement.paddingRight.length - 2))));
+        });
+        var table = document.getElementById($scope.controlId + "table");
+        document.getElementById($scope.controlId + "theader").style.width = headerWidth + "px"; //выставляем ширину контейнера заголовка таблицы
+        table.style.width = headerWidth + "px";   // и обязательно ширину самой таблицы грида
+
+        // получаем родительский элемент, который содержит нашу таблицу, tbodycontainer и theader
+        var parentContainer = document.getElementById($scope.controlId + "tab_container").parentNode;
+        // устанавливаем высоту и ширну tbodycontainer
+        // в tbodycontainer находится наша таблица
+        tbodycontainer.style.width = parentContainer.clientWidth - pinnedWidth + "px";
+        // сохраняем ссылку на theader для скроллинга
         if (!$scope.theader)
           $scope.theader = document.getElementById($scope.controlId + "theader");
-        $scope.theader.width = width+"px";
+        // ставим высоту tbodycontainer
       };
 
       //***********************************************************************
@@ -190,16 +201,8 @@
         var borderBottomWidth = 0;
         var determCellProperties = false;
         var determHeaderWidth = false;
-        var borderLeftWidth = 0;
-        var borderRightWidth = 0;
-        var paddingLeft = 0;
-        var paddingRight = 0;
-        var headerWidth = 0;
         // DOM элемент table
-        // вычисляем ширину заголовков, таблицы
-        var pinnedIndex, conIndex = 0;
         var table = document.getElementById($scope.controlId + "table");
-        table.style.width = $scope.theader.style.width;   // и обязательно ширину самой таблицы грида
 
         // проходимся по всем строкам таблицы
         for (var rowIndex = 0; rowIndex < table.children[0].children.length; rowIndex++) {
@@ -208,21 +211,13 @@
                     .children[rowIndex];  // tr
           var rowHeight = $scope.css(row, "height");  // "грязная" высота строки
 
-          if (!determHeaderWidth && row.cells.length > 0)  // этот кусок надо выполнить 1 раз для самой первой строки грида
-          {
-            // определим все параметры для точного определения размеров ячейки грида
-            borderTopWidth = $scope.css(row.cells[0], "borderTopWidth");    // надо для вычислени полной высоты
-            paddingTop = $scope.css(row.cells[0], "paddingTop");        // надо для вычислени полной высоты
-            paddingBottom = $scope.css(row.cells[0], "paddingBottom");     // надо для вычислени полной высоты
-            borderBottomWidth = $scope.css(row.cells[0], "borderBottomWidth"); // надо для вычислени полной высоты
-            //$scope.TableWidth = headerWidth;
-            determHeaderWidth = true; // флаг, что для остальных строк ничего этого делать уже не надо
-          }
-          // к этомум моменту у нас есть все данные для вычисления полной высоты текущей строки
-          // пожтому проходимся по всем "замороженным" столбцам и выставляем высоту соответствующей строки с индексом rowIndex
+          // поэтому проходимся по всем "замороженным" столбцам и выставляем высоту соответствующей строки с индексом rowIndex
           $scope.pinnedColumns.forEach(function (pinnedColumn, pinnedColumnIndex) {
-            pinnedColumn.cells[rowIndex].rowHeight = rowHeight - borderTopWidth - paddingTop - paddingBottom - borderBottomWidth;
+              pinnedColumn.html.children[0] // tbody
+                                .children[rowIndex].style.height = rowHeight + 'px';
+//            pinnedColumn.cells[rowIndex].rowHeight = rowHeight - borderTopWidth - paddingTop - paddingBottom - borderBottomWidth;
           });
+          //row.style.height = maxRowHeight + 'px';
         }
       };
 
@@ -233,28 +228,20 @@
       var leftPosition = 0;
       // **  формируем массив "замороженных" колонок
       $scope.TableWidth = 0;
-      var pinnedIndex = 0;
-      var headerIndex = 0;
-      var elementName = 
       $scope.config.columnsDefinition.forEach(function (colDef, index) {
-        
+
         colDef.selector = (colDef.fieldName ? colDef.fieldName : index); // это селктор для поддержки данных в виде массива массивов и массива объектов
         colDef.index = index;                 // индекс в масиве columnsDefinition соответствующий данному стобцу. Используется для измение размеров заголовка
         leftPosition += colDef.width + 10 + 1; // вычисляет left div-элемента, у изменяемой размеры колонки 10 - это padding 5px класса hcell
-        colDef.left = leftPosition - 2;       // это середина div-элемента размером 5px. Задается в класса rdiv
+        //colDef.left = leftPosition - 2;       // это середина div-элемента размером 5px. Задается в класса rdiv
         if (colDef.cellTemplate == undefined)
           colDef.cellTemplate = "{{data[column.fieldName]}}";
-        if (colDef.pinned){
-          elementName = "fct" + pinnedIndex;
+        if (colDef.pinned)
           $scope.pinnedColumns.push(colDef);      // "замороденные" колонки налево
-          pinnedIndex++;
-        }
         else {
-          elementName = "thr" + headerIndex;
+          //          $scope.TableWidth += colDef.width;
           $scope.gridColumnsHeaders.push(colDef); // остальные направо ))
-          headerIndex++;
         }
-        colDef.html = document.getElementById("thr" + headerIndex);  // сохраняем ссылку на ячейку заголовка для изменения его ширины в будущем
       });
     } ];
     return {
@@ -285,13 +272,13 @@
             });
           });
           scope.bindingEvents();
-          scope.InitializePinnedColumns(0); // заполняет свойство cells у pinned колонки
-          scope.SetHeaderSize();             // adjust width and height of tab_container div
+          scope.InitializePinnedColumns(0);
+          scope.setSize();             // adjust width and height of tab_container div
           scope.CalculateRowsHeight();
           scope.$apply();
-/*          window.addResizeListener(element[0], function () {
+          window.addResizeListener(element[0], function () {
             scope.setSize();
-          });*/
+          });
         });
       }
     }

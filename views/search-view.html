@@ -46,37 +46,41 @@
         <div>
           <p><b>Параметры</b></p>
           <!-- кнопка добавить -->
-          <div style="width:100%;">
+          <div class="paramBtnPnl">
             <input type="button" value="Добавить" class="btnCtrl" ng-click="AddParameter()"/>
-            <input type="button" value="Очистить" style="margin-left:5px;" class="btnCtrl" ng-click="alert('Пока не реализовано')"/>
+            <input type="button" value="Очистить" class="btnCtrl btnClear" ng-click="alert('Пока не реализовано')"/>
           </div>
           <!-- сетка параметров -->
           <div>
-            <ul class="params">
-              <li ng-repeat="param in params">
-                <table cellpadding="0" cellspacing="0" border="0px" width="100%">
-                  <tr>
-                    <td style="width:15px">
-                      <input type="checkbox" ng-model="param.enabled" class="checkParam" ng-change="FormURL()"/>
-                    </td>
-                    <td style="width:50%">
-                      <ui-select ng-model="param.paramName" theme="select2" ng-disabled="disabled" style="width:100%;"  ng-change="FormURL()">
-                        <ui-select-match>{{param.paramName.Code}}</ui-select-match>
-                        <ui-select-choices repeat="val in paramNames | propsFilter: {Code: $select.search}">
-                          <div ng-bind-html="val.Code | highlight: $select.search" style="font-weight:bold; font-size:8pt;"></div>
-                        </ui-select-choices>
-                      </ui-select>
-                    </td>
-                    <td class="paramVal">=</td>
-                    <td style="width:50%">
-                      <input type="text" ng-model="param.paramValue"  class="paramVal"  ng-blur="FormURL()"/>
-                    </td>
-                    <td style="width:20px">
-                      <input class="delParambtn btnCtrl" style="width:26px" type="button" value="X" ng-click="DelParameter($index)"/>
-                    </td>
-                  </tr>
-                </table>
-            </ul>
+            <table id="paramTab" cellpadding="0" cellspacing="0" border="0px" width="100%">
+              <colgroup>
+                <col width="22px"/>
+                <col width="125px"/>
+                <col width="5px"/>
+                <col width=""/>
+                <col width="20px"/>
+              </colgroup>
+              <tr ng-repeat="param in params">
+                <td>
+                  <input type="checkbox" ng-model="param.enabled" class="checkParam" ng-change="FormURL()"/>
+                </td>
+                <td>
+                  <ui-select class="paramSel" ng-model="param.paramName" theme="select2" ng-disabled="disabled" ng-change="FormURL()">
+                    <ui-select-match>{{param.paramName.Code}}</ui-select-match>
+                    <ui-select-choices repeat="val in paramNames | propsFilter: {Code: $select.search}">
+                      <div class="paramSelDsp" ng-bind-html="val.Code | highlight: $select.search"></div>
+                    </ui-select-choices>
+                  </ui-select>
+                </td>
+                <td>=</td>
+                <td>
+                  <input type="text" ng-model="param.paramValue"  class="paramVal inpParamVal"  ng-blur="FormURL()"/>
+                </td>
+                <td>
+                  <input class="delParambtn btnCtrl" type="button" value="X" ng-click="DelParameter($index)"/>
+                </td>
+              </tr>
+            </table>
           </div>
           <div class="opDiv">
             <label class="hRadio"><input type="radio" name="operation" value="LogicalAnd" ng-model="request.ParamValueExpressionMode" ng-change="FormURL()"/>И</label>

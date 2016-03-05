@@ -23,13 +23,18 @@ div{
 .ctrlPanel input{
   font-weight:bold;
 }
-
+.paramSelDsp{
+  font-weight:bold; 
+  font-size:8pt;
+}
+.paramSel{
+  width:125px;
+}
 .mainPanel{
   overflow: auto;
   top: 50px !important;
-  background-color:rgba(0, 0, 0, .15);
+  background-color:#E5E5E5;
   color: #333333;
-  color:#333333;
   padding: 3px;
 }
 .select2-container .select2-choice{
@@ -43,6 +48,9 @@ div{
   background-image:none;
   background: #b5b5b5
 }
+.select2-container, .select2-drop, .select2-search, .select2-search input{
+  border: #b5b5b5 1px solid;
+}
 .datectrl{
 	left: 45px;
 	position: absolute;
@@ -50,16 +58,10 @@ div{
   color:#333;
 }
 #left{
-  overflow:auto;
+  overflow:hidden;
 }
 #left > div{
-<!--  margin: 3px 3px 3px 3px; -->
-	background-color: #888888;
-<!--  border-radius: 5px; -->
-<!--  -webkit-border-radius: 5px; -->
-<!--  -moz-border-radius: 5px; -->
   padding: 3px;
-<!--  border-style: groove; -->
 }
 .params{
 	margin-left: -40px;
@@ -83,14 +85,17 @@ div input[type="datetime-local"]{
 }
 
 div > ul input[type="text"]{
-width:100%;
+  width:100%;
   background-color:#F5F5F5;
   border-style: none;
-  height: 24px;
-    font-size: 8pt;
-    font-family: arial;
-    font-weight: bold;
-    padding-left: 3px;
+  height: 26px;
+  font-size: 8pt;
+  font-family: arial;
+  font-weight: bold;
+  padding-left: 3px;
+  border: #b5b5b5 1px solid;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 .inputHint + input[type="text"]{
   height:18px;
@@ -100,15 +105,27 @@ width:100%;
   font-size:8pt;
   font-weight:bold;
   width:99%;
+  border: #b5b5b5 1px solid;
 }
 .delParambtn{
-  height: 26px !important;
+  height: 28px !important;
+  width: 100% !important;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding:0px;
+}
+.paramBtnPnl{
+  width:100%;
+}
+.btnClear{
+  margin-left:5px;
 }
 .btnCtrl{
   border-style: none;
   background-color: #b5b5b5;  
   width:49%;
   float:left;
+  font-weight: bold;
 }
 .btnCtrl:active{
   border-style: none;
@@ -134,7 +151,7 @@ margin-left: 5px;
 margin-right: 5px;
 font-weight: bold;
 font-size: 9pt;
-}
+
 }
 .opDiv{
   width: 100%;
@@ -152,12 +169,19 @@ td input{
   width:100%;
 }
 .paramVal{
-  float:left; 
-  height:22px;
-  width:10px;
+  height:28px;
   font-size: 8pt;
-    padding-left: 3px;
-
+  padding-left:1px;
+  padding-right:1px;
+  border-width:1px;
+  font-weight:bold;
+}
+#paramTab td{
+  padding-top:1px;
+}
+.inpParamVal{
+  box-sizing: border-box;
+  border: #b5b5b5 1px solid;
 }
 .ui-selectmenu-menu .ui-menu.customicons .ui-menu-item {
   padding: 0.5em 0 0.5em 3em;
@@ -310,6 +334,9 @@ h4{
   line-height:0.5;
 	margin-left: -40px;
 	list-style-type: none;
+}
+.mesParams label{
+  font-weight:bold;
 }
 .grid{
   height: 100%;
