@@ -37,7 +37,7 @@ var unilogControllers = angular.module('unilogControllers', [])
 unilogControllers.controller('searchController',
 [
   '$scope',
-  '$routeParams',
+//  '$routeParams',
   '$http',
   '$document',
   '$timeout',
@@ -48,7 +48,7 @@ unilogControllers.controller('searchController',
   '$location',
   '$cacheFactory',
   'serviceData',
-  function ($scope, $routeParams, $http, $document, $timeout, $q, unilogConst, environment, $rootScope, $location, $cacheFactory, serviceData) {
+  function ($scope, $http, $document, $timeout, $q, unilogConst, environment, $rootScope, $location, $cacheFactory, serviceData) {
     if ($rootScope.cache == undefined)
       $rootScope.cache = $cacheFactory('dic');
     // настраиваем колонки грида
@@ -163,30 +163,32 @@ unilogControllers.controller('searchController',
       data: $rootScope.data == undefined ? [] : $rootScope.data
     };
     //
-    if($routeParams.searchParams !== undefined && !angular.isArray($routeParams.searchParams)){
-      var urlParams = $routeParams.searchParams.split('?');
+    /*var routeParams = [];
+    //if($routeParams.searchParams !== undefined && !angular.isArray($routeParams.searchParams)){
+      var urlParams = $location.url().split('?');
       if(urlParams.length > 0 ){
         urlParams.splice(0, 1);
         var keyValues = urlParams[0].split('&');
         for(var p=0; p< keyValues.length; p++){
           var keyValue = keyValues[p].split('=');
-          var param = $routeParams[keyValue[0]];
+          var param = routeParams[keyValue[0]];
           if(param == undefined)
-            $routeParams[keyValue[0]] = keyValue[1];
+            routeParams[keyValue[0]] = keyValue[1];
           else{ 
             if(!angular.isArray(param))
             {
-              var aux = $routeParams[keyValue[0]];
-              $routeParams[keyValue[0]] = [];
-              $routeParams[keyValue[0]].push(aux);
+              var aux = routeParams[keyValue[0]];
+              routeParams[keyValue[0]] = [];
+              routeParams[keyValue[0]].push(aux);
             }
-            $routeParams[keyValue[0]].push(keyValue[1]);
+            routeParams[keyValue[0]].push(keyValue[1]);
           }
         }
-      }
-    }
+      }*/
+      
+    //}
     // сохраняем параметры запроса
-    $scope.queryParams = $routeParams;
+    $scope.queryParams = $location.$$search;
     // загружаем название параметров
     serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/MessageParam?$format=json')
       .then(function (response) {
@@ -348,37 +350,37 @@ unilogControllers.controller('searchController',
     var endDateValue = new Date(dayValue.getFullYear(), dayValue.getMonth(), dayValue.getDate(), dayValue.getHours(), dayValue.getMinutes());
 
     // тип временного интервала
-    if ($routeParams.drm != undefined && $routeParams.drm == '0') {
+    if ($location.$$search.drm != undefined && $location.$$search.drm == '0') {
       $scope.dayOrInterval = unilogConst.Day;
-      if ($routeParams.ad != undefined && $routeParams.ad == '0') // произвольная дата
-        if ($routeParams.day != undefined) // дата назначена и её берем в качестве значения
+      if ($location.$$search.ad != undefined && $location.$$search.ad == '0') // произвольная дата
+        if ($location.$$search.day != undefined) // дата назначена и её берем в качестве значения
         {
-          var date = parseInt($routeParams.day.substring(0, 2));
-          var month = parseInt($routeParams.day.substring(3, 5));
-          var year = parseInt($routeParams.day.substring(6, 8));
+          var date = parseInt($location.$$search.day.substring(0, 2));
+          var month = parseInt($location.$$search.day.substring(3, 5));
+          var year = parseInt($location.$$search.day.substring(6, 8));
           dayValue = new Date(year, month, date);
         }
     }
     $scope.day = dayValue;
 
     // парсим даты
-    if ($routeParams.sd != undefined && $routeParams.ed != undefined && $scope.dayOrInterval == unilogConst.Interval) // парсим интервал если указан тип "интервал"
+    if ($location.$$search.sd != undefined && $location.$$search.ed != undefined && $scope.dayOrInterval == unilogConst.Interval) // парсим интервал если указан тип "интервал"
     { //    01234567890123
       // sd=06.01.16_20.00
       var curCentury = (new Date()).getFullYear().toString().substr(0, 2);
-      var date = parseInt($routeParams.sd.substring(0, 2));
-      var month = parseInt($routeParams.sd.substring(3, 5)) - 1;
-      var year = parseInt(curCentury + $routeParams.sd.substring(6, 8));
-      var hour = parseInt($routeParams.sd.substring(9, 11));
-      var min = parseInt($routeParams.sd.substring(12));
+      var date = parseInt($location.$$search.sd.substring(0, 2));
+      var month = parseInt($location.$$search.sd.substring(3, 5)) - 1;
+      var year = parseInt(curCentury + $location.$$search.sd.substring(6, 8));
+      var hour = parseInt($location.$$search.sd.substring(9, 11));
+      var min = parseInt($location.$$search.sd.substring(12));
       startDateValue = new Date(year, month, date, hour, min);
       //    01234567890123
       // ed=06.01.16_20.00
-      date = parseInt($routeParams.ed.substring(0, 2));
-      month = parseInt($routeParams.ed.substring(3, 5)) - 1;
-      year = parseInt(curCentury + $routeParams.ed.substring(6, 8));
-      hour = parseInt($routeParams.ed.substring(9, 11));
-      min = parseInt($routeParams.ed.substring(12));
+      date = parseInt($location.$$search.ed.substring(0, 2));
+      month = parseInt($location.$$search.ed.substring(3, 5)) - 1;
+      year = parseInt(curCentury + $location.$$search.ed.substring(6, 8));
+      hour = parseInt($location.$$search.ed.substring(9, 11));
+      min = parseInt($location.$$search.ed.substring(12));
       endDateValue = new Date(year, month, date, hour, min);
     }
     // даты интервала
@@ -393,8 +395,8 @@ unilogControllers.controller('searchController',
 			    $scope.messageTypes.push({ Enabled: true, ID: currentValue.ID, Code: currentValue.Code, Name: currentValue.Code });
 			  });
 			  // парсим типы сообщений
-			  if ($routeParams.types !== undefined) {
-			    var mesTypes = $routeParams.types.split('.');
+			  if ($location.$$search.types !== undefined) {
+			    var mesTypes = $location.$$search.types.split('.');
 			    $scope.messageTypes.forEach(function (mesType, mesTypeIndex) {
 			      var reqMesType = mesTypes.find(function (r, rIndex) {
 			        return parseInt(r) == mesType.ID;
@@ -408,7 +410,7 @@ unilogControllers.controller('searchController',
 			});
     // парсим тип операции с параметрами
     var operatonType = unilogConst.AndOperation; // по-умолчанию
-    if($routeParams.po !== undefined && $routeParams.po == '2')
+    if($location.$$search.po !== undefined && $location.$$search.po == '2')
       operatonType = unilogConst.OrOperation;
     // объект для запроса к сервису сообщений
     $scope.request = {
@@ -428,10 +430,10 @@ unilogControllers.controller('searchController',
       ParamValueConditions: []  // array of {ParamId     :0, StringValues:[] // array of strings }
     };
     // тип источника      
-    $scope.sid = $routeParams.sid != undefined ? $routeParams.sid : -1;
-    $scope.messageText = $routeParams.mt != undefined ? $routeParams.mt : '';
-    $scope.additionalInfo = $routeParams.at != undefined ? $routeParams.at : '';
-    $scope.methodName = $routeParams.mn != undefined ? $routeParams.mn : '';
+    $scope.sid = $location.$$search.sid != undefined ? $location.$$search.sid : -1;
+    $scope.messageText = $location.$$search.mt != undefined ? $location.$$search.mt : '';
+    $scope.additionalInfo = $location.$$search.at != undefined ? $location.$$search.at : '';
+    $scope.methodName = $location.$$search.mn != undefined ? $location.$$search.mn : '';
 
     // парсит строку  в массив если в ней есть ";" иначе помещает в массив саму строку в массив
     $scope.parseStringIntoArray = function (inputStr) {
@@ -621,8 +623,10 @@ unilogControllers.controller('searchController',
       }
       else
         prepareRequestResult = $scope.PrepareRequest($scope.request.MessageIdTo - 1);
-      if(!prepareRequestResult)
+      if(!prepareRequestResult){
+          $scope.EndRequest();
           return;
+      }
       // запрос к сервис сообщений
 
       $scope.loadingPromise = $http({
@@ -693,18 +697,18 @@ unilogControllers.controller('searchController',
 ['$scope',
 '$http',
 'environment',
-'$routeParams',
+'$location',
 '$rootScope',
 '$q',
 'serviceData',
 '$cacheFactory',
- function ($scope, $http, environment, $routeParams, $rootScope, $q, serviceData, $cacheFactory) {
-   if ($routeParams.messageId !== undefined) {
+ function ($scope, $http, environment, $location, $rootScope, $q, serviceData, $cacheFactory) {
+   if ($location.$$search.messageId !== undefined) {
      if ($rootScope.cache == undefined)
        $rootScope.cache = $cacheFactory('dic');
      var batch1 = [];
-     var promise1 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $routeParams.messageId + ')?$format=json&$expand=MessageParamValue,MessageType,Source/Application,Source/ApplicationHost');
-     var promise2 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $routeParams.messageId + ')/MessageParamValue?$format=json');
+     var promise1 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $location.$$search.messageId + ')?$format=json&$expand=MessageParamValue,MessageType,Source/Application,Source/ApplicationHost');
+     var promise2 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/Message(' + $location.$$search.messageId + ')/MessageParamValue?$format=json');
      var promise3 = serviceData(environment.DataServiceUrlPrefix + 'UnilogDataService.svc/MessageParam?$format=json');
      batch1.push(promise1);
      batch1.push(promise2);
