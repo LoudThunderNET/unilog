@@ -4,7 +4,7 @@
   bottom: 0px;    
   left: 0px;    
   right: 0px; 
-  background-color:#737373;
+  background-color:#CCCCCC;
 }
 .mesHeader{
   width: 100%;   
@@ -56,17 +56,23 @@
  .ulParam div{
   padding-left:10px;
   cursor:pointer;
+  border-top: #E5E5E5 1px solid;
+  border-bottom: #E5E5E5 1px solid;
 }
  .ulParam div:hover{
   padding-left:10px;
   background-color:#CCCCCC;
   cursor:pointer;
+  border-top: #b5b5b5 1px solid;
+  border-bottom: #b5b5b5 1px solid;
 }
 .seleParam{
   cursor:pointer;
-  background-color:#B5B5B5;
-  color:#333;
-  font-weight:bold;
+  background-color: #737373;
+  color: #eee;
+  font-weight: bold;
+  border-top: #b5b5b5 1px solid;
+  border-bottom: #b5b5b5 1px solid;
 }
 .listValue{
     list-style: none;
